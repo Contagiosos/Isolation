@@ -11,6 +11,7 @@
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Materials/Material.h"
 #include "Engine/World.h"
+#include "Interactuable.h"
 
 AIsolationUE4Character::AIsolationUE4Character()
 {
@@ -59,7 +60,15 @@ void AIsolationUE4Character::SetupPlayerInputComponent(UInputComponent* PlayerIn
 	PlayerInputComponent->BindAxis("MoveForward", this, &AIsolationUE4Character::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AIsolationUE4Character::MoveRight);
 
+	PlayerInputComponent->BindAction("Interact",IE_Pressed , this, &AIsolationUE4Character::Interact);
+}
 
+void AIsolationUE4Character::Interact()
+{
+	if (SubClaseInteractuableActual)
+	{
+
+	}
 }
 
 void AIsolationUE4Character::MoveForward(float value)

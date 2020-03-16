@@ -25,6 +25,12 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	void Interact();
+	bool bPuedeInteractuar;
+	class AInteractuable* InteractuableActual;
+
+	TSubclassOf<AInteractuable>* SubClaseInteractuableActual;
+
 private:
 	/** Top down camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))

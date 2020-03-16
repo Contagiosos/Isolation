@@ -8,7 +8,7 @@
 AIsolationUE4GameMode::AIsolationUE4GameMode()
 {
 	// use our custom PlayerController class
-	PlayerControllerClass = AIsolationUE4PlayerController::StaticClass();
+	//PlayerControllerClass = AIsolationUE4PlayerController::StaticClass();
 
 	// set default pawn class to our Blueprinted character
 	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/TopDownCPP/Blueprints/TopDownCharacter"));

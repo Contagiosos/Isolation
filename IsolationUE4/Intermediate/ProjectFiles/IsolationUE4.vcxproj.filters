@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\IsolationUE4.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E32E2B8C-A860-4EFA-89A0-E4B2D8383B42}</UniqueIdentifier>
+      <UniqueIdentifier>{EA183823-8403-484A-B89D-F62546594324}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\IsolationUE4.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4B727355-1DE2-493B-939B-5281F5553BBE}</UniqueIdentifier>
+      <UniqueIdentifier>{DE5E231B-EDEB-446E-82BB-6F0AEF0E47CA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\IsolationUE4">
-      <UniqueIdentifier>{9E02A9AC-8023-416F-B110-A78F329A63F0}</UniqueIdentifier>
+      <UniqueIdentifier>{9516A8B2-3224-4DF5-B254-7AE6EBBA369C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\IsolationUE4\IsolationUE4.Build.cs">
       <Filter>Source\IsolationUE4</Filter>
@@ -59,5 +59,21 @@
     <ClInclude Include="..\..\Source\IsolationUE4\IsolationUE4PlayerController.h">
       <Filter>Source\IsolationUE4</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\IsolationUE4\MainPlayerController.h">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\IsolationUE4\Interactuable.h">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\IsolationUE4\MainPlayerController.cpp">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IsolationUE4\Interactuable.cpp">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

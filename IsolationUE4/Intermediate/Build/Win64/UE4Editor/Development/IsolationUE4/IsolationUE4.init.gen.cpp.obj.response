@@ -28,10 +28,33 @@
 /wd4838
 /we4668
 /I .
-/I C:\Users\Joel\Documents\Games\Isolation\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Inc\IsolationUE4
-/I C:\Users\Joel\Documents\Games\Isolation\Isolation\IsolationUE4\Source
-/I C:\Users\Joel\Documents\Games\Isolation\Isolation\IsolationUE4\Source\IsolationUE4
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Slate
 /I Runtime
+/I Runtime\Slate\Public
+/I Runtime\Slate
+/I Runtime\Slate\Public\Framework
+/I Runtime\Slate\Public\Framework\Application
+/I Runtime\Slate\Public\Framework\Commands
+/I Runtime\Slate\Public\Framework\Docking
+/I Runtime\Slate\Public\Framework\Layout
+/I Runtime\Slate\Public\Framework\MetaData
+/I Runtime\Slate\Public\Framework\MultiBox
+/I Runtime\Slate\Public\Framework\Notifications
+/I Runtime\Slate\Public\Framework\Styling
+/I Runtime\Slate\Public\Framework\Text
+/I Runtime\Slate\Public\Framework\Views
+/I Runtime\Slate\Public\Widgets
+/I Runtime\Slate\Public\Widgets\Accessibility
+/I Runtime\Slate\Public\Widgets\Colors
+/I Runtime\Slate\Public\Widgets\Docking
+/I Runtime\Slate\Public\Widgets\Images
+/I Runtime\Slate\Public\Widgets\Input
+/I Runtime\Slate\Public\Widgets\LayerManager
+/I Runtime\Slate\Public\Widgets\Layout
+/I Runtime\Slate\Public\Widgets\Navigation
+/I Runtime\Slate\Public\Widgets\Notifications
+/I Runtime\Slate\Public\Widgets\Text
+/I Runtime\Slate\Public\Widgets\Views
 /I Runtime\Core\Public
 /I Runtime\Core
 /I Runtime\Core\Public\Algo
@@ -77,6 +100,47 @@
 /I Runtime\CoreUObject\Public\Serialization\Formatters
 /I Runtime\CoreUObject\Public\Templates
 /I Runtime\CoreUObject\Public\UObject
+/I Runtime\ApplicationCore\Public
+/I Runtime\ApplicationCore
+/I Runtime\ApplicationCore\Public\GenericPlatform
+/I Runtime\ApplicationCore\Public\HAL
+/I Runtime\ApplicationCore\Public\Windows
+/I Runtime\ApplicationCore\Public\Windows\Accessibility
+/I Runtime\RHI\Public
+/I Runtime\RHI
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
+/I Runtime\InputCore\Classes
+/I Runtime\InputCore\Public
+/I Runtime\InputCore
+/I Runtime\InputCore\Public\GenericPlatform
+/I Runtime\InputCore\Public\HAL
+/I Runtime\InputCore\Public\Windows
+/I Runtime\Json\Public
+/I Runtime\Json
+/I Runtime\Json\Public\Dom
+/I Runtime\Json\Public\Policies
+/I Runtime\Json\Public\Serialization
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore
+/I Runtime\SlateCore\Public
+/I Runtime\SlateCore
+/I Runtime\SlateCore\Public\Animation
+/I Runtime\SlateCore\Public\Application
+/I Runtime\SlateCore\Public\Brushes
+/I Runtime\SlateCore\Public\Debugging
+/I Runtime\SlateCore\Public\Fonts
+/I Runtime\SlateCore\Public\Input
+/I Runtime\SlateCore\Public\Layout
+/I Runtime\SlateCore\Public\Rendering
+/I Runtime\SlateCore\Public\Sound
+/I Runtime\SlateCore\Public\Styling
+/I Runtime\SlateCore\Public\Textures
+/I Runtime\SlateCore\Public\Types
+/I Runtime\SlateCore\Public\Widgets
+/I Runtime\SlateCore\Public\Widgets\Accessibility
+/I Runtime\SlateCore\Public\Widgets\Images
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper
+/I Runtime\ImageWrapper\Public
+/I Runtime\ImageWrapper
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
@@ -103,73 +167,6 @@
 /I Runtime\Engine\Public\Tests
 /I Runtime\Engine\Public\VisualLogger
 /I Runtime\Engine\Public\VT
-/I Runtime\ApplicationCore\Public
-/I Runtime\ApplicationCore
-/I Runtime\ApplicationCore\Public\GenericPlatform
-/I Runtime\ApplicationCore\Public\HAL
-/I Runtime\ApplicationCore\Public\Windows
-/I Runtime\ApplicationCore\Public\Windows\Accessibility
-/I Runtime\RHI\Public
-/I Runtime\RHI
-/I Runtime\Json\Public
-/I Runtime\Json
-/I Runtime\Json\Public\Dom
-/I Runtime\Json\Public\Policies
-/I Runtime\Json\Public\Serialization
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore
-/I Runtime\SlateCore\Public
-/I Runtime\SlateCore
-/I Runtime\SlateCore\Public\Animation
-/I Runtime\SlateCore\Public\Application
-/I Runtime\SlateCore\Public\Brushes
-/I Runtime\SlateCore\Public\Debugging
-/I Runtime\SlateCore\Public\Fonts
-/I Runtime\SlateCore\Public\Input
-/I Runtime\SlateCore\Public\Layout
-/I Runtime\SlateCore\Public\Rendering
-/I Runtime\SlateCore\Public\Sound
-/I Runtime\SlateCore\Public\Styling
-/I Runtime\SlateCore\Public\Textures
-/I Runtime\SlateCore\Public\Types
-/I Runtime\SlateCore\Public\Widgets
-/I Runtime\SlateCore\Public\Widgets\Accessibility
-/I Runtime\SlateCore\Public\Widgets\Images
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
-/I Runtime\InputCore\Classes
-/I Runtime\InputCore\Public
-/I Runtime\InputCore
-/I Runtime\InputCore\Public\GenericPlatform
-/I Runtime\InputCore\Public\HAL
-/I Runtime\InputCore\Public\Windows
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Slate
-/I Runtime\Slate\Public
-/I Runtime\Slate
-/I Runtime\Slate\Public\Framework
-/I Runtime\Slate\Public\Framework\Application
-/I Runtime\Slate\Public\Framework\Commands
-/I Runtime\Slate\Public\Framework\Docking
-/I Runtime\Slate\Public\Framework\Layout
-/I Runtime\Slate\Public\Framework\MetaData
-/I Runtime\Slate\Public\Framework\MultiBox
-/I Runtime\Slate\Public\Framework\Notifications
-/I Runtime\Slate\Public\Framework\Styling
-/I Runtime\Slate\Public\Framework\Text
-/I Runtime\Slate\Public\Framework\Views
-/I Runtime\Slate\Public\Widgets
-/I Runtime\Slate\Public\Widgets\Accessibility
-/I Runtime\Slate\Public\Widgets\Colors
-/I Runtime\Slate\Public\Widgets\Docking
-/I Runtime\Slate\Public\Widgets\Images
-/I Runtime\Slate\Public\Widgets\Input
-/I Runtime\Slate\Public\Widgets\LayerManager
-/I Runtime\Slate\Public\Widgets\Layout
-/I Runtime\Slate\Public\Widgets\Navigation
-/I Runtime\Slate\Public\Widgets\Notifications
-/I Runtime\Slate\Public\Widgets\Text
-/I Runtime\Slate\Public\Widgets\Views
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper
-/I Runtime\ImageWrapper\Public
-/I Runtime\ImageWrapper
 /I Runtime\Messaging\Public
 /I Runtime\Messaging
 /I Runtime\MessagingCommon\Public
@@ -501,6 +498,9 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\ClothingSystemRuntimeInterface
+/I D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Inc\IsolationUE4
+/I D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Source
+/I D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Source\IsolationUE4
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
@@ -527,17 +527,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\Users\Joel\Documents\Games\Isolation\Isolation\IsolationUE4\Intermediate\Build\Win64\IsolationUE4Editor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Joel\Documents\Games\Isolation\Isolation\IsolationUE4\Intermediate\Build\Win64\IsolationUE4Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Joel\Documents\Games\Isolation\Isolation\IsolationUE4\Intermediate\Build\Win64\IsolationUE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Joel\Documents\Games\Isolation\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Inc\IsolationUE4\IsolationUE4.init.gen.cpp"
-/FI"C:\Users\Joel\Documents\Games\Isolation\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\Definitions.IsolationUE4.h"
-/Fo"C:\Users\Joel\Documents\Games\Isolation\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\IsolationUE4.init.gen.cpp.obj"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/FI"D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\IsolationUE4Editor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\IsolationUE4Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\IsolationUE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Inc\IsolationUE4\IsolationUE4.init.gen.cpp"
+/FI"D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\Definitions.IsolationUE4.h"
+/Fo"D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\IsolationUE4.init.gen.cpp.obj"
 /TP
 /GR-
 /W4
