@@ -1,0 +1,9 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\UE4\CONTAGIOSOS\Isolation).
+  Parsing headers for IsolationUE4Editor
+    Running UnrealHeaderTool "D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\IsolationUE4.uproject" "D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\IsolationUE4Editor\Development\IsolationUE4Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for IsolationUE4Editor in 4,9298939 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 1 action with 6 processes...
+    [1/1] IsolationUE4Editor.target
+  Total time in Parallel executor: 0,15 seconds
+  Total execution time: 5,67 seconds

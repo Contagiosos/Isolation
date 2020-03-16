@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeIsolationUE4Character() {}
 	ISOLATIONUE4_API UClass* Z_Construct_UClass_AIsolationUE4Character();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_IsolationUE4();
-	ENGINE_API UClass* Z_Construct_UClass_UDecalComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
@@ -34,10 +33,6 @@ void EmptyLinkFunctionForGeneratedCodeIsolationUE4Character() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CursorToWorld_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CursorToWorld;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraBoom_MetaData[];
 #endif
@@ -64,17 +59,6 @@ void EmptyLinkFunctionForGeneratedCodeIsolationUE4Character() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_CursorToWorld_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
-		{ "Category", "Camera" },
-		{ "Comment", "/** A decal that projects to the cursor location. */" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "IsolationUE4Character.h" },
-		{ "ToolTip", "A decal that projects to the cursor location." },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_CursorToWorld = { "CursorToWorld", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIsolationUE4Character, CursorToWorld), Z_Construct_UClass_UDecalComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_CursorToWorld_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_CursorToWorld_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_CameraBoom_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
@@ -97,7 +81,6 @@ void EmptyLinkFunctionForGeneratedCodeIsolationUE4Character() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_TopDownCameraComponent = { "TopDownCameraComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIsolationUE4Character, TopDownCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_TopDownCameraComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_TopDownCameraComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AIsolationUE4Character_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_CursorToWorld,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_CameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_TopDownCameraComponent,
 	};
@@ -128,7 +111,7 @@ void EmptyLinkFunctionForGeneratedCodeIsolationUE4Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AIsolationUE4Character, 427221473);
+	IMPLEMENT_CLASS(AIsolationUE4Character, 4122280718);
 	template<> ISOLATIONUE4_API UClass* StaticClass<AIsolationUE4Character>()
 	{
 		return AIsolationUE4Character::StaticClass();

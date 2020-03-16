@@ -59,8 +59,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AIsolationUE4Character); \
 
 #define IsolationUE4_Source_IsolationUE4_IsolationUE4Character_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__TopDownCameraComponent() { return STRUCT_OFFSET(AIsolationUE4Character, TopDownCameraComponent); } \
-	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AIsolationUE4Character, CameraBoom); } \
-	FORCEINLINE static uint32 __PPO__CursorToWorld() { return STRUCT_OFFSET(AIsolationUE4Character, CursorToWorld); }
+	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AIsolationUE4Character, CameraBoom); }
 
 
 #define IsolationUE4_Source_IsolationUE4_IsolationUE4Character_h_9_PROLOG
