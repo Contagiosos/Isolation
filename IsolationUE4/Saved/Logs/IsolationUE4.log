@@ -1362,3 +1362,33 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.16-18.12.47:532][233]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
 [2020.03.16-18.12.47:796][233]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/MapaPruebas9E86DF194AA6019C3520658A37371C97.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas.umap'
 [2020.03.16-18.12.47:820][233]LogFileHelpers: Saving map 'MapaPruebas' took 0.337
+[2020.03.16-18.14.51:428][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.16-18.15.02:370][295]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Users/Usuario/Downloads/Paredesysuelo.FBX)
+[2020.03.16-18.15.02:407][295]LogFbx: Loading FBX Scene from ../../../../../Users/Usuario/Downloads/Paredesysuelo.FBX
+[2020.03.16-18.15.02:417][295]LogFbx: FBX Scene Loaded Succesfully
+[2020.03.16-18.15.07:736][295]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.03.16-18.15.07:809][295]LogFbx: Display: Triangulating static mesh ParedSimple
+[2020.03.16-18.15.07:820][295]LogStaticMesh: Building static mesh Paredesysuelo_ParedSimple...
+[2020.03.16-18.15.07:821][295]LogStaticMesh: Built static mesh [0.00s] /Game/TopDownCPP/Meshes/Paredesysuelo_ParedSimple.Paredesysuelo_ParedSimple
+[2020.03.16-18.15.07:821][295]LogStaticMesh: Warning: Paredesysuelo_ParedSimple has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.03.16-18.15.07:822][295]LogStaticMesh: Warning: Paredesysuelo_ParedSimple has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.03.16-18.15.07:830][295]LogFbx: Display: Triangulating static mesh PAredPuerta
+[2020.03.16-18.15.07:835][295]LogStaticMesh: Building static mesh Paredesysuelo_PAredPuerta...
+[2020.03.16-18.15.07:840][295]LogStaticMesh: Built static mesh [0.01s] /Game/TopDownCPP/Meshes/Paredesysuelo_PAredPuerta.Paredesysuelo_PAredPuerta
+[2020.03.16-18.15.07:849][295]LogFbx: Display: Triangulating static mesh SueloLow
+[2020.03.16-18.15.07:850][295]LogStaticMesh: Building static mesh Paredesysuelo_SueloLow...
+[2020.03.16-18.15.07:851][295]LogStaticMesh: Built static mesh [0.00s] /Game/TopDownCPP/Meshes/Paredesysuelo_SueloLow.Paredesysuelo_SueloLow
+[2020.03.16-18.15.07:866][295]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.03.16-18.15.07:866][295]FBXImport: Warning: Paredesysuelo_ParedSimple has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.03.16-18.15.07:866][295]FBXImport: Warning: Paredesysuelo_ParedSimple has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.03.16-18.15.21:459][874]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/TopDownCPP/Meshes/Paredesysuelo_ParedSimple.Paredesysuelo_ParedSimple
+[2020.03.16-18.15.22:129][875]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
+[2020.03.16-18.15.30:128][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.16-18.15.58:631][507]LogUObjectHash: Compacting FUObjectHashTables data took   6.69ms
+[2020.03.16-18.15.59:519][507]LogSlate: Window 'Save Content' being destroyed
+[2020.03.16-18.15.59:549][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Meshes/Paredesysuelo_PAredPuerta" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Meshes/Paredesysuelo_PAredPuerta.uasset" SILENT=true
+[2020.03.16-18.15.59:568][507]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Paredesysuelo_PAredPuerta0EA4E1604ED60BAFF35757B0068B3DDF.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Meshes/Paredesysuelo_PAredPuerta.uasset'
+[2020.03.16-18.15.59:583][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Meshes/Paredesysuelo_ParedSimple" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Meshes/Paredesysuelo_ParedSimple.uasset" SILENT=true
+[2020.03.16-18.15.59:598][507]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Paredesysuelo_ParedSimple13107E0B4B3CB32C9E4A4892BDC52C07.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Meshes/Paredesysuelo_ParedSimple.uasset'
+[2020.03.16-18.15.59:612][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Meshes/Paredesysuelo_SueloLow" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Meshes/Paredesysuelo_SueloLow.uasset" SILENT=true
+[2020.03.16-18.15.59:627][507]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Paredesysuelo_SueloLow82F135144BC5C9D63B5DD0AD3C182EA8.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Meshes/Paredesysuelo_SueloLow.uasset'

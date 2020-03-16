@@ -40,5 +40,6 @@ private:
 	void MoveForward(float value);
 	/** Called for side to side input */
 	void MoveRight(float value);
+	
 };
 
