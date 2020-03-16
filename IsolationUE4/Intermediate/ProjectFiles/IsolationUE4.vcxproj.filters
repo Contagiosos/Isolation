@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\IsolationUE4.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E32E2B8C-A860-4EFA-89A0-E4B2D8383B42}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\IsolationUE4.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\IsolationUE4Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{4B727355-1DE2-493B-939B-5281F5553BBE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\IsolationUE4">
+      <UniqueIdentifier>{9E02A9AC-8023-416F-B110-A78F329A63F0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\IsolationUE4\IsolationUE4.Build.cs">
+      <Filter>Source\IsolationUE4</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\IsolationUE4\IsolationUE4.cpp">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IsolationUE4\IsolationUE4.h">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\IsolationUE4\IsolationUE4Character.cpp">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IsolationUE4\IsolationUE4Character.h">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\IsolationUE4\IsolationUE4GameMode.cpp">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IsolationUE4\IsolationUE4GameMode.h">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\IsolationUE4\IsolationUE4PlayerController.cpp">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IsolationUE4\IsolationUE4PlayerController.h">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

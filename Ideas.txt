@@ -1,0 +1,10 @@
+Mecánicas de juego:
+
+-Va a haber un gas que se va expandiendo por las salas.
+-Puedes aguantar la respiración.
+-Puedes encontrar objectos que te ayuden a proseguir (Ejemplo: una mascara para respirar más)
+
+Arte:
+
+-Vista isométrica.
+-Estilizado
