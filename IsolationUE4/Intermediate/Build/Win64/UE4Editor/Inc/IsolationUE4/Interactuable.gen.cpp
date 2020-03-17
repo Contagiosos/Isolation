@@ -23,10 +23,16 @@ void EmptyLinkFunctionForGeneratedCodeInteractuable() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ISOLATIONUE4_API UFunction* Z_Construct_UFunction_AInteractuable_BoxTriggerEndOverlap();
 	ISOLATIONUE4_API UFunction* Z_Construct_UFunction_AInteractuable_Interaccion();
+	ISOLATIONUE4_API UFunction* Z_Construct_UFunction_AInteractuable_InteraccionBlueprint();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
+	static FName NAME_AInteractuable_InteraccionBlueprint = FName(TEXT("InteraccionBlueprint"));
+	void AInteractuable::InteraccionBlueprint()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_AInteractuable_InteraccionBlueprint),NULL);
+	}
 	void AInteractuable::StaticRegisterNativesAInteractuable()
 	{
 		UClass* Class = AInteractuable::StaticClass();
@@ -202,6 +208,28 @@ void EmptyLinkFunctionForGeneratedCodeInteractuable() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AInteractuable_InteraccionBlueprint_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AInteractuable_InteraccionBlueprint_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Interactuable.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AInteractuable_InteraccionBlueprint_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AInteractuable, nullptr, "InteraccionBlueprint", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AInteractuable_InteraccionBlueprint_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AInteractuable_InteraccionBlueprint_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AInteractuable_InteraccionBlueprint()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AInteractuable_InteraccionBlueprint_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AInteractuable_NoRegister()
 	{
 		return AInteractuable::StaticClass();
@@ -213,6 +241,11 @@ void EmptyLinkFunctionForGeneratedCodeInteractuable() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bEsBlueprint_MetaData[];
+#endif
+		static void NewProp_bEsBlueprint_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bEsBlueprint;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LocalizacionWidget_MetaData[];
 #endif
@@ -253,6 +286,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractuable() {}
 		{ &Z_Construct_UFunction_AInteractuable_BoxTriggerBeginOverlap, "BoxTriggerBeginOverlap" }, // 2890320151
 		{ &Z_Construct_UFunction_AInteractuable_BoxTriggerEndOverlap, "BoxTriggerEndOverlap" }, // 3076267270
 		{ &Z_Construct_UFunction_AInteractuable_Interaccion, "Interaccion" }, // 2387489005
+		{ &Z_Construct_UFunction_AInteractuable_InteraccionBlueprint, "InteraccionBlueprint" }, // 3550042458
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInteractuable_Statics::Class_MetaDataParams[] = {
@@ -260,6 +294,17 @@ void EmptyLinkFunctionForGeneratedCodeInteractuable() {}
 		{ "ModuleRelativePath", "Interactuable.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInteractuable_Statics::NewProp_bEsBlueprint_MetaData[] = {
+		{ "Category", "Bool" },
+		{ "ModuleRelativePath", "Interactuable.h" },
+	};
+#endif
+	void Z_Construct_UClass_AInteractuable_Statics::NewProp_bEsBlueprint_SetBit(void* Obj)
+	{
+		((AInteractuable*)Obj)->bEsBlueprint = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_bEsBlueprint = { "bEsBlueprint", nullptr, (EPropertyFlags)0x0010000000010001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AInteractuable), &Z_Construct_UClass_AInteractuable_Statics::NewProp_bEsBlueprint_SetBit, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_bEsBlueprint_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_bEsBlueprint_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInteractuable_Statics::NewProp_LocalizacionWidget_MetaData[] = {
 		{ "Category", "Mesh" },
@@ -317,6 +362,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractuable() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_MeshPrincipal = { "MeshPrincipal", nullptr, (EPropertyFlags)0x0010000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractuable, MeshPrincipal), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_MeshPrincipal_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_MeshPrincipal_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AInteractuable_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractuable_Statics::NewProp_bEsBlueprint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractuable_Statics::NewProp_LocalizacionWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractuable_Statics::NewProp_BoxTrigger,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh4,
@@ -352,7 +398,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractuable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AInteractuable, 850119044);
+	IMPLEMENT_CLASS(AInteractuable, 2212433796);
 	template<> ISOLATIONUE4_API UClass* StaticClass<AInteractuable>()
 	{
 		return AInteractuable::StaticClass();

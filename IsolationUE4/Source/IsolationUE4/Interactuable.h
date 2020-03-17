@@ -51,6 +51,12 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void Interaccion();
 
+	UFUNCTION(BlueprintImplementableEvent)
+	void InteraccionBlueprint();
+
+	UPROPERTY(EditDefaultsOnly, Category = "Bool")
+	bool bEsBlueprint;
+
 	void DisplayWidgetDelayed();
 	
 

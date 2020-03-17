@@ -90,6 +90,8 @@ struct FHitResult;
 	}
 
 
+#define IsolationUE4_Source_IsolationUE4_Interactuable_h_12_EVENT_PARMS
+#define IsolationUE4_Source_IsolationUE4_Interactuable_h_12_CALLBACK_WRAPPERS
 #define IsolationUE4_Source_IsolationUE4_Interactuable_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAInteractuable(); \
@@ -133,12 +135,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AInteractuable); \
 
 
 #define IsolationUE4_Source_IsolationUE4_Interactuable_h_12_PRIVATE_PROPERTY_OFFSET
-#define IsolationUE4_Source_IsolationUE4_Interactuable_h_9_PROLOG
+#define IsolationUE4_Source_IsolationUE4_Interactuable_h_9_PROLOG \
+	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_EVENT_PARMS
+
+
 #define IsolationUE4_Source_IsolationUE4_Interactuable_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_PRIVATE_PROPERTY_OFFSET \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_RPC_WRAPPERS \
+	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_CALLBACK_WRAPPERS \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_INCLASS \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -150,6 +156,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_PRIVATE_PROPERTY_OFFSET \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_CALLBACK_WRAPPERS \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_INCLASS_NO_PURE_DECLS \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_ENHANCED_CONSTRUCTORS \
 private: \

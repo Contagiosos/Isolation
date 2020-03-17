@@ -1,0 +1,5 @@
+D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\Definitions.IsolationUE4.h
+d:\ue4\contagiosos\isolation\isolationue4\source\isolationue4\Boton.h
+d:\ue4\contagiosos\isolation\isolationue4\source\isolationue4\Interactuable.h
+D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Inc\IsolationUE4\Interactuable.generated.h
+D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Inc\IsolationUE4\Boton.generated.h

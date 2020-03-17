@@ -58,7 +58,10 @@ void AInteractuable::Tick(float DeltaTime)
 
 void AInteractuable::Interaccion()
 {
-	SetActorLocation(FVector(-140.f, 220.f, 290.f));
+	if (bEsBlueprint)
+		InteraccionBlueprint();
+	else
+		SetActorLocation(FVector(-140.f, 220.f, 290.f));
 }
 
 void AInteractuable::DisplayWidgetDelayed()
