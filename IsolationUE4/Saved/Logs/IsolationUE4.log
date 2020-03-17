@@ -2608,3 +2608,1056 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.17-22.23.10:933][372]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
 [2020.03.17-22.23.11:192][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/HUD/StartMenu" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/HUD/StartMenu.uasset" SILENT=true
 [2020.03.17-22.23.11:202][400]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/StartMenuD75C84CA4F0956FAE4B61AAA6AB04A21.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/HUD/StartMenu.uasset'
+[2020.03.17-22.23.53:666][478]LogRenderer: Reallocating scene render targets to support 1132x708 Format 10 NumSamples 1 (Frame:1).
+[2020.03.17-22.24.07:200][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.27.11:299][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.27.11:366][887]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.27.11:400][887]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.27.11:401][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.27.11:401][887]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:27:11)
+[2020.03.17-22.27.11:401][887]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.27.11:411][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009868s)
+[2020.03.17-22.27.11:412][887]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.27.11:412][887]LogPlayLevel: PIE: World Init took: (0.001079s)
+[2020.03.17-22.27.11:412][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.011112s)
+[2020.03.17-22.27.11:457][887]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2020.03.17-22.27.11:502][887]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.27.11:535][887]LogInit: FAudioDevice initialized.
+[2020.03.17-22.27.11:540][887]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.27.11:541][887]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.27.11
+[2020.03.17-22.27.11:541][887]LogWorld: Bringing up level for play took: 0.001129
+[2020.03.17-22.27.11:542][887]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2020.03.17-22.27.11:564][887]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.27.11:564][887]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.27.11:579][887]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas 1,152
+[2020.03.17-22.27.11:579][887]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.27.20:119][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.27.20:191][675]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.27.20:191][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.27.20:192][675]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.27.20:193][675]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.27.20:210][675]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.27.20:210][675]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.27.20:252][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.27.20:258][675]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.03.17-22.27.20:292][678]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2020.03.17-22.27.21:008][764]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.27.21:039][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.27.21:039][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.27.21:039][764]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:27:21)
+[2020.03.17-22.27.21:039][764]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.27.21:048][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008124s)
+[2020.03.17-22.27.21:048][764]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.27.21:049][764]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2020.03.17-22.27.21:049][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.009185s)
+[2020.03.17-22.27.21:091][764]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2020.03.17-22.27.21:135][764]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.27.21:168][764]LogInit: FAudioDevice initialized.
+[2020.03.17-22.27.21:178][764]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.27.21:180][764]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.27.21
+[2020.03.17-22.27.21:180][764]LogWorld: Bringing up level for play took: 0.001086
+[2020.03.17-22.27.21:180][764]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2020.03.17-22.27.21:202][764]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.27.21:202][764]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.27.21:217][764]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas 0,789
+[2020.03.17-22.27.21:217][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.27.40:573][  7]LogEditorViewport: Clicking on Actor (LMB): Nivel_BP00_C (Nivel_BP0029)
+[2020.03.17-22.27.42:409][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.27.46:321][509]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.27.46:322][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.27.46:322][509]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.27.46:323][509]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.27.46:339][509]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.27.46:339][509]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.27.46:381][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.27.46:387][509]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.03.17-22.27.46:421][512]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2020.03.17-22.28.08:014][ 82]BlueprintLog: New page: Compile PruebaGeneradorDeSalas
+[2020.03.17-22.28.08:284][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2020.03.17-22.28.08:442][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Blueprints/PruebaGeneradorDeSalas" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Blueprints/PruebaGeneradorDeSalas.uasset" SILENT=true
+[2020.03.17-22.28.08:528][ 84]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/PruebaGeneradorDeSalasA9468A7A44CB9E8726DE2B9B0FFE5331.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Blueprints/PruebaGeneradorDeSalas.uasset'
+[2020.03.17-22.28.09:367][176]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.28.09:399][176]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.28.09:399][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.28.09:399][176]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:28:09)
+[2020.03.17-22.28.09:399][176]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.28.09:408][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008910s)
+[2020.03.17-22.28.09:409][176]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.28.09:409][176]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2020.03.17-22.28.09:409][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.010000s)
+[2020.03.17-22.28.09:449][176]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2020.03.17-22.28.09:494][176]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.28.09:527][176]LogInit: FAudioDevice initialized.
+[2020.03.17-22.28.09:537][176]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.28.09:538][176]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.28.09
+[2020.03.17-22.28.09:538][176]LogWorld: Bringing up level for play took: 0.001058
+[2020.03.17-22.28.09:539][176]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2020.03.17-22.28.09:561][176]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.28.09:561][176]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.28.09:577][176]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas 1,15
+[2020.03.17-22.28.09:577][176]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.28.13:274][590]LogEditorViewport: Clicking on Actor (LMB): Nivel_BP00_C (Nivel_BP0029)
+[2020.03.17-22.28.16:179][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.28.16:248][879]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.28.16:249][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.28.16:249][879]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.28.16:250][879]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.28.16:278][879]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.28.16:278][879]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.28.16:323][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.28.16:329][879]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.03.17-22.28.16:356][881]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2020.03.17-22.28.16:814][936]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.28.16:845][936]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.28.16:845][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.28.16:845][936]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:28:16)
+[2020.03.17-22.28.16:845][936]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.28.16:854][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008128s)
+[2020.03.17-22.28.16:854][936]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.28.16:855][936]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2020.03.17-22.28.16:855][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.009190s)
+[2020.03.17-22.28.16:897][936]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.03.17-22.28.16:942][936]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.28.16:973][936]LogInit: FAudioDevice initialized.
+[2020.03.17-22.28.16:981][936]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.28.16:982][936]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.28.16
+[2020.03.17-22.28.16:982][936]LogWorld: Bringing up level for play took: 0.001047
+[2020.03.17-22.28.16:983][936]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2020.03.17-22.28.17:004][936]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.28.17:004][936]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.28.17:020][936]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas 0,592
+[2020.03.17-22.28.17:020][936]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.28.22:779][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.29.17:116][ 16]LogScript: Warning: Accessed None trying to read property CallFunc_GetChildAt_ReturnValue
+	Map_C /Engine/Transient.UnrealEdEngine_0:GameInstance_27.Map_C_0
+	Function /Game/TopDownCPP/HUD/Map.Map_C:ExecuteUbergraph_Map:0242
+[2020.03.17-22.29.17:116][ 16]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetChildAt_ReturnValue". Blueprint:  Map Function:  Execute Ubergraph Map Graph:  EventGraph Node:  Set Visibility
+[2020.03.17-22.29.19:483][300]LogScript: Warning: Accessed None trying to read property CallFunc_GetChildAt_ReturnValue
+	Map_C /Engine/Transient.UnrealEdEngine_0:GameInstance_27.Map_C_0
+	Function /Game/TopDownCPP/HUD/Map.Map_C:ExecuteUbergraph_Map:0242
+[2020.03.17-22.29.19:483][300]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetChildAt_ReturnValue". Blueprint:  Map Function:  Execute Ubergraph Map Graph:  EventGraph Node:  Set Visibility
+[2020.03.17-22.29.22:025][605]LogScript: Warning: Accessed None trying to read property CallFunc_GetChildAt_ReturnValue
+	Map_C /Engine/Transient.UnrealEdEngine_0:GameInstance_27.Map_C_0
+	Function /Game/TopDownCPP/HUD/Map.Map_C:ExecuteUbergraph_Map:0242
+[2020.03.17-22.29.22:025][605]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetChildAt_ReturnValue". Blueprint:  Map Function:  Execute Ubergraph Map Graph:  EventGraph Node:  Set Visibility
+[2020.03.17-22.29.23:609][795]LogScript: Warning: Accessed None trying to read property CallFunc_GetChildAt_ReturnValue
+	Map_C /Engine/Transient.UnrealEdEngine_0:GameInstance_27.Map_C_0
+	Function /Game/TopDownCPP/HUD/Map.Map_C:ExecuteUbergraph_Map:0242
+[2020.03.17-22.29.23:609][795]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetChildAt_ReturnValue". Blueprint:  Map Function:  Execute Ubergraph Map Graph:  EventGraph Node:  Set Visibility
+[2020.03.17-22.29.25:192][985]LogScript: Warning: Accessed None trying to read property CallFunc_GetChildAt_ReturnValue
+	Map_C /Engine/Transient.UnrealEdEngine_0:GameInstance_27.Map_C_0
+	Function /Game/TopDownCPP/HUD/Map.Map_C:ExecuteUbergraph_Map:0242
+[2020.03.17-22.29.25:192][985]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetChildAt_ReturnValue". Blueprint:  Map Function:  Execute Ubergraph Map Graph:  EventGraph Node:  Set Visibility
+[2020.03.17-22.29.26:779][171]LogScript: Warning: Accessed None trying to read property CallFunc_GetChildAt_ReturnValue
+	Map_C /Engine/Transient.UnrealEdEngine_0:GameInstance_27.Map_C_0
+	Function /Game/TopDownCPP/HUD/Map.Map_C:ExecuteUbergraph_Map:0242
+[2020.03.17-22.29.26:779][171]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetChildAt_ReturnValue". Blueprint:  Map Function:  Execute Ubergraph Map Graph:  EventGraph Node:  Set Visibility
+[2020.03.17-22.29.28:605][390]LogScript: Warning: Accessed None trying to read property CallFunc_GetChildAt_ReturnValue
+	Map_C /Engine/Transient.UnrealEdEngine_0:GameInstance_27.Map_C_0
+	Function /Game/TopDownCPP/HUD/Map.Map_C:ExecuteUbergraph_Map:0242
+[2020.03.17-22.29.28:605][390]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetChildAt_ReturnValue". Blueprint:  Map Function:  Execute Ubergraph Map Graph:  EventGraph Node:  Set Visibility
+[2020.03.17-22.29.32:330][837]LogScript: Warning: Accessed None trying to read property CallFunc_GetChildAt_ReturnValue
+	Map_C /Engine/Transient.UnrealEdEngine_0:GameInstance_27.Map_C_0
+	Function /Game/TopDownCPP/HUD/Map.Map_C:ExecuteUbergraph_Map:0242
+[2020.03.17-22.29.32:330][837]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetChildAt_ReturnValue". Blueprint:  Map Function:  Execute Ubergraph Map Graph:  EventGraph Node:  Set Visibility
+[2020.03.17-22.29.34:255][ 68]LogScript: Warning: Accessed None trying to read property CallFunc_GetChildAt_ReturnValue
+	Map_C /Engine/Transient.UnrealEdEngine_0:GameInstance_27.Map_C_0
+	Function /Game/TopDownCPP/HUD/Map.Map_C:ExecuteUbergraph_Map:0242
+[2020.03.17-22.29.34:255][ 68]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetChildAt_ReturnValue". Blueprint:  Map Function:  Execute Ubergraph Map Graph:  EventGraph Node:  Set Visibility
+[2020.03.17-22.29.41:430][929]LogScript: Warning: Accessed None trying to read property CallFunc_GetChildAt_ReturnValue
+	Map_C /Engine/Transient.UnrealEdEngine_0:GameInstance_27.Map_C_0
+	Function /Game/TopDownCPP/HUD/Map.Map_C:ExecuteUbergraph_Map:0242
+[2020.03.17-22.29.41:431][929]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetChildAt_ReturnValue". Blueprint:  Map Function:  Execute Ubergraph Map Graph:  EventGraph Node:  Set Visibility
+[2020.03.17-22.29.44:421][288]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.17-22.29.47:988][653]LogEditorViewport: Clicking on Actor (LMB): Nivel_BP00_C (Nivel_BP0025)
+[2020.03.17-22.29.51:522][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.29.51:604][954]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.29.51:604][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.29.51:604][954]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.29.51:605][954]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.29.51:621][954]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.29.51:621][954]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.29.51:663][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.29.51:669][954]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2020.03.17-22.29.51:711][956]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2020.03.17-22.30.30:441][590]LogEditorTransaction: Undo Edit 9
+[2020.03.17-22.30.30:925][642]LogEditorTransaction: Undo Add Child
+[2020.03.17-22.30.31:552][712]LogEditorTransaction: Undo Edit 9
+[2020.03.17-22.30.35:535][185]LogEditorTransaction: Undo Add Child
+[2020.03.17-22.30.37:199][379]BlueprintLog: New page: Compile Map
+[2020.03.17-22.30.37:274][379]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2020.03.17-22.30.37:604][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/HUD/Map" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/HUD/Map.uasset" SILENT=true
+[2020.03.17-22.30.37:658][408]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Map354CC90F402CDE30058591B83EBD9965.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/HUD/Map.uasset'
+[2020.03.17-22.31.01:643][252]BlueprintLog: New page: Compile PruebaGeneradorDeSalas
+[2020.03.17-22.31.01:914][252]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2020.03.17-22.31.02:122][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Blueprints/PruebaGeneradorDeSalas" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Blueprints/PruebaGeneradorDeSalas.uasset" SILENT=true
+[2020.03.17-22.31.02:200][259]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/PruebaGeneradorDeSalasDB6882344CA2B5C9FEA6919A07E97F6D.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Blueprints/PruebaGeneradorDeSalas.uasset'
+[2020.03.17-22.31.03:538][413]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.31.03:581][413]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.31.03:581][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.31.03:582][413]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:31:03)
+[2020.03.17-22.31.03:582][413]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.31.03:590][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009084s)
+[2020.03.17-22.31.03:591][413]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.31.03:591][413]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2020.03.17-22.31.03:591][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.010153s)
+[2020.03.17-22.31.03:634][413]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2020.03.17-22.31.03:679][413]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.31.03:712][413]LogInit: FAudioDevice initialized.
+[2020.03.17-22.31.03:719][413]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.31.03:721][413]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.31.03
+[2020.03.17-22.31.03:721][413]LogWorld: Bringing up level for play took: 0.001092
+[2020.03.17-22.31.03:721][413]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2020.03.17-22.31.03:743][413]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.31.03:743][413]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.31.03:758][413]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas -0,669
+[2020.03.17-22.31.03:759][413]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.31.07:821][818]LogEditorViewport: Clicking on Actor (LMB): Nivel_BP00_C (Nivel_BP0024)
+[2020.03.17-22.31.09:821][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.31.09:860][990]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.31.09:861][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.31.09:861][990]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.31.09:862][990]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.31.09:893][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.31.09:893][990]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.31.09:937][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.31.09:943][990]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.03.17-22.31.09:978][992]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2020.03.17-22.31.18:668][ 18]BlueprintLog: New page: Compile PruebaGeneradorDeSalas
+[2020.03.17-22.31.18:932][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.03.17-22.31.19:239][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Blueprints/PruebaGeneradorDeSalas" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Blueprints/PruebaGeneradorDeSalas.uasset" SILENT=true
+[2020.03.17-22.31.19:317][ 37]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/PruebaGeneradorDeSalasBBCE05F3420719945C4E218CE2A88FB2.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Blueprints/PruebaGeneradorDeSalas.uasset'
+[2020.03.17-22.31.20:202][138]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.31.20:233][138]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.31.20:233][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.31.20:233][138]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:31:20)
+[2020.03.17-22.31.20:233][138]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.31.20:243][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009131s)
+[2020.03.17-22.31.20:243][138]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.31.20:243][138]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2020.03.17-22.31.20:244][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.010223s)
+[2020.03.17-22.31.20:286][138]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2020.03.17-22.31.20:331][138]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.31.20:363][138]LogInit: FAudioDevice initialized.
+[2020.03.17-22.31.20:373][138]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.31.20:375][138]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.31.20
+[2020.03.17-22.31.20:375][138]LogWorld: Bringing up level for play took: 0.001105
+[2020.03.17-22.31.20:375][138]LogOnline: OSS: Creating online subsystem instance for: :Context_50
+[2020.03.17-22.31.20:397][138]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.31.20:397][138]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.31.20:413][138]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas -0,015
+[2020.03.17-22.31.20:413][138]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.31.28:004][858]LogEditorViewport: Clicking on Actor (LMB): Nivel_BP00_C (Nivel_BP003)
+[2020.03.17-22.31.30:142][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.31.37:388][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.31.46:716][498]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.31.46:716][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.31.46:716][498]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.31.46:717][498]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.31.46:750][498]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.31.46:750][498]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.31.46:793][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.31.46:799][498]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.03.17-22.31.46:831][500]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2020.03.17-22.31.47:548][586]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.31.47:580][586]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.31.47:580][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.31.47:580][586]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:31:47)
+[2020.03.17-22.31.47:580][586]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.31.47:589][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008352s)
+[2020.03.17-22.31.47:590][586]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.31.47:590][586]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2020.03.17-22.31.47:590][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.009344s)
+[2020.03.17-22.31.47:632][586]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.03.17-22.31.47:677][586]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.31.47:709][586]LogInit: FAudioDevice initialized.
+[2020.03.17-22.31.47:717][586]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.31.47:719][586]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.31.47
+[2020.03.17-22.31.47:719][586]LogWorld: Bringing up level for play took: 0.001090
+[2020.03.17-22.31.47:719][586]LogOnline: OSS: Creating online subsystem instance for: :Context_51
+[2020.03.17-22.31.47:741][586]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.31.47:741][586]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.31.47:756][586]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas -0,671
+[2020.03.17-22.31.47:756][586]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.32.21:627][640]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.32.21:627][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.32.21:627][640]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.32.21:627][640]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.32.21:639][640]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.32.21:639][640]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.32.21:683][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.32.21:688][640]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.03.17-22.32.21:740][642]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2020.03.17-22.32.25:270][ 58]LogEditorViewport: Clicking on Actor (LMB): Sala_Base_C (Sala_Base)
+[2020.03.17-22.32.29:765][580]Cmd: DELETE
+[2020.03.17-22.32.29:765][580]Cmd: ACTOR DELETE
+[2020.03.17-22.32.29:766][580]LogEditorActor: Deleted Actor: Sala_Base_C
+[2020.03.17-22.32.29:806][580]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.03.17-22.32.29:806][580]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2020.03.17-22.32.31:126][737]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.32.31:235][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Maps/MapaPruebas" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.03.17-22.32.31:273][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.03.17-22.32.31:511][749]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/MapaPruebasF9AFD9124FB2BCCBCFC45B9B40BB77A7.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas.umap'
+[2020.03.17-22.32.31:548][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Maps/MapaPruebas_BuiltData" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas_BuiltData.uasset" SILENT=true
+[2020.03.17-22.32.31:609][749]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/MapaPruebas_BuiltData389C358F4AA9E3FF6ED50E936941140C.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas_BuiltData.uasset'
+[2020.03.17-22.32.32:549][849]LogEditorViewport: Clicking on Actor (LMB): PruebaGeneradorDeSalas_C (PruebaGeneradorDeSalas)
+[2020.03.17-22.32.34:311][ 57]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.32.34:395][ 67]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.32.34:426][ 67]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.32.34:426][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.32.34:426][ 67]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:32:34)
+[2020.03.17-22.32.34:426][ 67]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.32.34:435][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008407s)
+[2020.03.17-22.32.34:435][ 67]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.32.34:436][ 67]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2020.03.17-22.32.34:436][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.009427s)
+[2020.03.17-22.32.34:477][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.03.17-22.32.34:523][ 67]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.32.34:555][ 67]LogInit: FAudioDevice initialized.
+[2020.03.17-22.32.34:560][ 67]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.32.34:562][ 67]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.32.34
+[2020.03.17-22.32.34:562][ 67]LogWorld: Bringing up level for play took: 0.001032
+[2020.03.17-22.32.34:562][ 67]LogOnline: OSS: Creating online subsystem instance for: :Context_52
+[2020.03.17-22.32.34:584][ 67]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.32.34:584][ 67]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.32.34:599][ 67]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas 0,172
+[2020.03.17-22.32.34:599][ 67]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.32.36:786][325]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.32.36:787][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.32.36:787][325]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.32.36:787][325]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.32.36:794][325]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.32.36:794][325]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.32.36:836][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.32.36:841][325]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.03.17-22.32.36:893][329]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2020.03.17-22.32.37:686][421]LogEditorViewport: Clicking on Actor (LMB): PruebaGeneradorDeSalas_C (PruebaGeneradorDeSalas)
+[2020.03.17-22.32.39:742][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.32.39:842][676]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.32.39:873][676]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.32.39:873][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.32.39:873][676]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:32:39)
+[2020.03.17-22.32.39:873][676]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.32.39:881][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008366s)
+[2020.03.17-22.32.39:883][676]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.32.39:883][676]LogPlayLevel: PIE: World Init took: (0.001365s)
+[2020.03.17-22.32.39:883][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.009911s)
+[2020.03.17-22.32.39:920][676]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.03.17-22.32.39:965][676]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.32.39:997][676]LogInit: FAudioDevice initialized.
+[2020.03.17-22.32.40:004][676]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.32.40:005][676]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.32.40
+[2020.03.17-22.32.40:006][676]LogWorld: Bringing up level for play took: 0.001031
+[2020.03.17-22.32.40:006][676]LogOnline: OSS: Creating online subsystem instance for: :Context_53
+[2020.03.17-22.32.40:028][676]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.32.40:028][676]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.32.40:044][676]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas -0,383
+[2020.03.17-22.32.40:044][676]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.32.41:908][895]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.32.41:908][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.32.41:908][895]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.32.41:908][895]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.32.41:917][895]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.32.41:917][895]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.32.41:958][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.32.41:963][895]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.03.17-22.32.42:010][897]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2020.03.17-22.32.49:111][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.33.17:908][512]LogEditorViewport: Clicking on Actor (LMB): Volumetrics_BP_C (Volumetrics_BP)
+[2020.03.17-22.33.19:437][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.33.19:535][704]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/Effects/VolumetricGas/Volumetrics_BP.Volumetrics_BP
+[2020.03.17-22.35.06:415][420]BlueprintLog: New page: Compile Volumetrics_BP
+[2020.03.17-22.35.06:675][420]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2020.03.17-22.35.06:909][434]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Volumetrics_BP64F4A4B143964F3E89A534ABF5E68D4B.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Effects/VolumetricGas/Volumetrics_BP.uasset'
+[2020.03.17-22.35.08:010][551]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.35.08:042][551]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.35.08:042][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.35.08:042][551]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:35:08)
+[2020.03.17-22.35.08:042][551]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.35.08:053][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010181s)
+[2020.03.17-22.35.08:054][551]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.35.08:054][551]LogPlayLevel: PIE: World Init took: (0.001113s)
+[2020.03.17-22.35.08:054][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.011467s)
+[2020.03.17-22.35.08:095][551]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2020.03.17-22.35.08:139][551]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.35.08:172][551]LogInit: FAudioDevice initialized.
+[2020.03.17-22.35.08:181][551]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.35.08:182][551]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.35.08
+[2020.03.17-22.35.08:182][551]LogWorld: Bringing up level for play took: 0.001040
+[2020.03.17-22.35.08:183][551]LogOnline: OSS: Creating online subsystem instance for: :Context_56
+[2020.03.17-22.35.08:203][551]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.35.08:203][551]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.35.08:221][551]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas -0,207
+[2020.03.17-22.35.08:221][551]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.35.47:031][196]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.35.47:031][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.35.47:031][196]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.35.47:031][196]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.35.47:056][196]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.35.47:056][196]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.35.47:103][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.35.47:110][196]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.03.17-22.35.47:165][198]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2020.03.17-22.35.51:565][706]LogEditorViewport: Clicking on Actor (LMB): Volumetrics_BP_C (Volumetrics_BP)
+[2020.03.17-22.35.52:152][774]LogEditorViewport: Clicking on Actor (LMB): Volumetrics_BP_C (Volumetrics_BP)
+[2020.03.17-22.35.52:723][841]LogEditorViewport: Clicking on Actor (LMB): Volumetrics_BP_C (Volumetrics_BP)
+[2020.03.17-22.35.55:483][141]LogEditorViewport: Clicking on Actor (LMB): Volumetrics_BP_C (Volumetrics_BP)
+[2020.03.17-22.36.01:056][796]LogEditorViewport: Clicking on Actor (LMB): InteractuablePrueba_BP_C (InteractuablePrueba_BP)
+[2020.03.17-22.36.04:610][220]Cmd: DELETE
+[2020.03.17-22.36.04:610][220]Cmd: ACTOR DELETE
+[2020.03.17-22.36.04:611][220]LogEditorActor: Deleted Actor: InteractuablePrueba_BP_C
+[2020.03.17-22.36.04:652][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.03.17-22.36.04:652][220]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2020.03.17-22.36.07:170][520]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.36.07:238][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Maps/MapaPruebas" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.03.17-22.36.07:279][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.03.17-22.36.07:507][527]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/MapaPruebasEB44DE2547378C583FE91AA58EECC30D.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas.umap'
+[2020.03.17-22.36.07:543][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Maps/MapaPruebas_BuiltData" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas_BuiltData.uasset" SILENT=true
+[2020.03.17-22.36.07:600][527]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/MapaPruebas_BuiltData4970561F44A3ED9C9A85D9AA54BDD13B.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas_BuiltData.uasset'
+[2020.03.17-22.36.09:487][739]LogEditorViewport: Clicking on Actor (LMB): Volumetrics_BP_C (Volumetrics_BP)
+[2020.03.17-22.36.11:536][977]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.37.40:713][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.37.49:241][680]BlueprintLog: New page: Compile Volumetrics_BP
+[2020.03.17-22.37.49:504][680]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.03.17-22.37.49:667][684]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Volumetrics_BP1FFB536F480C1BC35E0974AC36DBF539.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Effects/VolumetricGas/Volumetrics_BP.uasset'
+[2020.03.17-22.38.48:654][716]BlueprintLog: New page: Compile Volumetrics_BP
+[2020.03.17-22.38.48:913][716]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2020.03.17-22.38.49:238][744]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Volumetrics_BPF4372BE54507E461F6C5E2A7574C6AC5.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Effects/VolumetricGas/Volumetrics_BP.uasset'
+[2020.03.17-22.38.55:473][489]BlueprintLog: New page: Compile Volumetrics_BP
+[2020.03.17-22.38.55:733][489]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2020.03.17-22.38.55:931][500]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Volumetrics_BP0E1401CA47C1448364AF58AF7CE036A8.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Effects/VolumetricGas/Volumetrics_BP.uasset'
+[2020.03.17-22.39.39:698][430]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.17-22.39.40:777][558]BlueprintLog: New page: Compile Volumetrics_BP
+[2020.03.17-22.39.41:036][558]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2020.03.17-22.39.41:222][567]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Volumetrics_BP1C9F25D14A2B78ABB593ED9FFCF87A46.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Effects/VolumetricGas/Volumetrics_BP.uasset'
+[2020.03.17-22.39.42:321][690]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.39.42:352][690]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.39.42:352][690]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.39.42:352][690]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:39:42)
+[2020.03.17-22.39.42:352][690]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.39.42:361][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009243s)
+[2020.03.17-22.39.42:362][690]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.39.42:363][690]LogPlayLevel: PIE: World Init took: (0.001362s)
+[2020.03.17-22.39.42:363][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.010844s)
+[2020.03.17-22.39.42:407][690]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2020.03.17-22.39.42:452][690]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.39.42:484][690]LogInit: FAudioDevice initialized.
+[2020.03.17-22.39.42:491][690]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.39.42:492][690]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.39.42
+[2020.03.17-22.39.42:492][690]LogWorld: Bringing up level for play took: 0.001039
+[2020.03.17-22.39.42:492][690]LogOnline: OSS: Creating online subsystem instance for: :Context_57
+[2020.03.17-22.39.42:513][690]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.39.42:513][690]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.39.42:530][690]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas 0,103
+[2020.03.17-22.39.42:531][690]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.39.55:341][222]LogBlueprintUserMessages: [Volumetrics_BP_2] GAAAAAAAAAAAS
+[2020.03.17-22.39.56:533][365]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.39.56:533][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.39.56:533][365]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.39.56:533][365]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.39.56:550][365]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.39.56:550][365]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.39.56:595][365]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.39.56:600][365]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.03.17-22.39.56:653][367]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2020.03.17-22.39.57:160][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.40.08:003][715]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.40.08:034][715]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.40.08:034][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.40.08:034][715]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:40:08)
+[2020.03.17-22.40.08:034][715]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.40.08:044][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009102s)
+[2020.03.17-22.40.08:045][715]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.40.08:045][715]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2020.03.17-22.40.08:045][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.010285s)
+[2020.03.17-22.40.08:090][715]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.03.17-22.40.08:134][715]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.40.08:167][715]LogInit: FAudioDevice initialized.
+[2020.03.17-22.40.08:175][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.40.08:176][715]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.40.08:177][715]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.40.08
+[2020.03.17-22.40.08:178][715]LogWorld: Bringing up level for play took: 0.001241
+[2020.03.17-22.40.08:178][715]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2020.03.17-22.40.08:198][715]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.40.08:198][715]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.40.08:217][715]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas -0,21
+[2020.03.17-22.40.08:217][715]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.40.08:251][716]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.03.17-22.40.10:119][921]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.17-22.40.14:131][305]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.40.14:131][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.40.14:131][305]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.40.14:148][305]LogSlate: Window 'IsolationUE4 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.17-22.40.14:152][305]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.40.14:183][305]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.40.14:183][305]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.40.14:233][305]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.03.17-22.40.14:261][306]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2020.03.17-22.40.29:048][ 79]BlueprintLog: New page: Compile Volumetrics_BP
+[2020.03.17-22.40.29:304][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2020.03.17-22.40.29:548][ 94]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Volumetrics_BP5A7532DC4F83FB8DF1584BBC5F7E16E1.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Effects/VolumetricGas/Volumetrics_BP.uasset'
+[2020.03.17-22.40.30:616][220]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.40.30:647][220]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.40.30:647][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.40.30:647][220]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:40:30)
+[2020.03.17-22.40.30:647][220]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.40.30:656][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008307s)
+[2020.03.17-22.40.30:657][220]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.40.30:657][220]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2020.03.17-22.40.30:657][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.009332s)
+[2020.03.17-22.40.30:703][220]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2020.03.17-22.40.30:748][220]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.40.30:779][220]LogInit: FAudioDevice initialized.
+[2020.03.17-22.40.30:789][220]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.40.30:791][220]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.40.30
+[2020.03.17-22.40.30:791][220]LogWorld: Bringing up level for play took: 0.001004
+[2020.03.17-22.40.30:791][220]LogOnline: OSS: Creating online subsystem instance for: :Context_59
+[2020.03.17-22.40.30:811][220]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.40.30:811][220]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.40.30:829][220]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas 0,402
+[2020.03.17-22.40.30:829][220]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.40.41:097][447]LogBlueprintUserMessages: [Volumetrics_BP_2] GAAAAAAAAAAAS
+[2020.03.17-22.40.55:432][167]LogBlueprintUserMessages: [Volumetrics_BP_2] GAAAAAAAAAAAS
+[2020.03.17-22.41.10:684][991]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.41.10:684][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.41.10:684][991]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.41.10:684][991]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.41.10:695][991]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.41.10:695][991]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.41.10:745][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.41.10:750][991]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.03.17-22.41.10:806][993]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2020.03.17-22.41.12:023][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.43.11:909][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Maps/MapaPruebas" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.03.17-22.43.11:956][648]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.03.17-22.43.12:202][648]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/MapaPruebasA8198AEB4FEA84ECDE0477848C877C1B.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas.umap'
+[2020.03.17-22.43.12:246][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Maps/MapaPruebas_BuiltData" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas_BuiltData.uasset" SILENT=true
+[2020.03.17-22.43.12:310][648]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/MapaPruebas_BuiltData1AA71F7B42AE9AE23DF346893AC94DA9.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas_BuiltData.uasset'
+[2020.03.17-22.44.30:267][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.44.30:333][130]BlueprintLog: New page: Compile Volumetrics_BP
+[2020.03.17-22.44.30:661][130]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2020.03.17-22.44.30:852][139]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Volumetrics_BP1228F79B4F34DF7F91B1368D18BBA7EA.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Effects/VolumetricGas/Volumetrics_BP.uasset'
+[2020.03.17-22.44.31:815][252]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.44.31:848][252]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.44.31:849][252]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.44.31:849][252]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:44:31)
+[2020.03.17-22.44.31:849][252]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.44.31:857][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008558s)
+[2020.03.17-22.44.31:858][252]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.44.31:858][252]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2020.03.17-22.44.31:858][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.009601s)
+[2020.03.17-22.44.31:909][252]LogUObjectHash: Compacting FUObjectHashTables data took   5.16ms
+[2020.03.17-22.44.31:955][252]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.44.31:989][252]LogInit: FAudioDevice initialized.
+[2020.03.17-22.44.31:994][252]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.44.31:996][252]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.44.31
+[2020.03.17-22.44.31:996][252]LogWorld: Bringing up level for play took: 0.001045
+[2020.03.17-22.44.31:996][252]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2020.03.17-22.44.32:017][252]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.44.32:017][252]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.44.32:035][252]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas -0,393
+[2020.03.17-22.44.32:035][252]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.44.37:648][920]LogBlueprintUserMessages: [Volumetrics_BP_2] GAAAAAAAAAAAS
+[2020.03.17-22.44.39:840][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.44.39:840][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.44.39:840][183]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.44.39:840][183]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.44.39:872][183]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.44.39:872][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.44.39:920][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.44.39:927][183]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2020.03.17-22.44.39:947][184]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2020.03.17-22.44.41:070][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.45.31:677][315]BlueprintLog: New page: Compile Volumetrics_BP
+[2020.03.17-22.45.31:964][315]LogUObjectHash: Compacting FUObjectHashTables data took   4.31ms
+[2020.03.17-22.45.32:343][346]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Volumetrics_BP67D3173F4FAD92BC625FFFB0D46FC6DE.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Effects/VolumetricGas/Volumetrics_BP.uasset'
+[2020.03.17-22.45.50:464][508]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'AActor::AddComponent' [No se ha encontrado el elemento.]
+[2020.03.17-22.45.57:802][362]BlueprintLog: New page: Compile Volumetrics_BP
+[2020.03.17-22.45.58:098][362]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2020.03.17-22.45.58:284][368]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Volumetrics_BPC3761AB34352D0DE847C978B825A1FAB.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Effects/VolumetricGas/Volumetrics_BP.uasset'
+[2020.03.17-22.45.59:546][516]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.45.59:578][516]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.45.59:579][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.45.59:579][516]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:45:59)
+[2020.03.17-22.45.59:579][516]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.45.59:588][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009344s)
+[2020.03.17-22.45.59:589][516]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.45.59:589][516]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2020.03.17-22.45.59:589][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.010437s)
+[2020.03.17-22.45.59:637][516]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2020.03.17-22.45.59:683][516]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.45.59:717][516]LogInit: FAudioDevice initialized.
+[2020.03.17-22.45.59:722][516]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.45.59:724][516]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.45.59
+[2020.03.17-22.45.59:724][516]LogWorld: Bringing up level for play took: 0.001072
+[2020.03.17-22.45.59:724][516]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2020.03.17-22.45.59:744][516]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.45.59:744][516]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.45.59:762][516]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas -0,665
+[2020.03.17-22.45.59:762][516]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.46.07:578][449]LogBlueprintUserMessages: [Volumetrics_BP_2] GAAAAAAAAAAAS
+[2020.03.17-22.46.13:696][183]LogBlueprintUserMessages: [Volumetrics_BP_2] GAAAAAAAAAAAS
+[2020.03.17-22.46.18:655][778]LogBlueprintUserMessages: [Volumetrics_BP_2] GAAAAAAAAAAAS
+[2020.03.17-22.46.27:599][851]LogBlueprintUserMessages: [Volumetrics_BP_2] GAAAAAAAAAAAS
+[2020.03.17-22.46.40:165][352]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.46.40:165][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.46.40:165][352]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.46.40:166][352]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.46.40:185][352]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.46.40:185][352]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.46.40:236][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.46.40:242][352]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.03.17-22.46.40:296][354]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2020.03.17-22.46.40:863][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.46.40:954][433]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.46.40:988][433]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.46.40:988][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.46.40:988][433]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:46:40)
+[2020.03.17-22.46.40:988][433]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.46.40:997][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008169s)
+[2020.03.17-22.46.40:997][433]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.46.40:998][433]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2020.03.17-22.46.40:998][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.009254s)
+[2020.03.17-22.46.41:044][433]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2020.03.17-22.46.41:090][433]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.46.41:123][433]LogInit: FAudioDevice initialized.
+[2020.03.17-22.46.41:128][433]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.46.41:130][433]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.46.41
+[2020.03.17-22.46.41:130][433]LogWorld: Bringing up level for play took: 0.001071
+[2020.03.17-22.46.41:130][433]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2020.03.17-22.46.41:151][433]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.46.41:151][433]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.46.41:169][433]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas 0,742
+[2020.03.17-22.46.41:170][433]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.46.46:900][115]LogBlueprintUserMessages: [Volumetrics_BP_2] GAAAAAAAAAAAS
+[2020.03.17-22.46.56:385][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.46.56:386][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.46.56:386][253]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.46.56:386][253]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.46.56:399][253]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.46.56:399][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.46.56:453][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.46.56:459][253]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2020.03.17-22.46.56:515][255]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2020.03.17-22.47.01:985][903]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.52.23:334][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.52.23:941][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Maps/MapaPruebas" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.03.17-22.52.23:988][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2020.03.17-22.52.24:262][710]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/MapaPruebas4C5E4697461A8163821B8C97266B3F71.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas.umap'
+[2020.03.17-22.52.24:297][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Maps/MapaPruebas_BuiltData" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas_BuiltData.uasset" SILENT=true
+[2020.03.17-22.52.24:359][710]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/MapaPruebas_BuiltData6299382540DDF8EF59FE76A23C6A56DB.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas_BuiltData.uasset'
+[2020.03.17-22.52.28:229][155]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.17-22.52.28:262][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.52.28:262][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.17-22.52.28:262][155]PIE: New page: PIE session: MapaPruebas (18/3/2020 0:52:28)
+[2020.03.17-22.52.28:262][155]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.52.28:271][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008916s)
+[2020.03.17-22.52.28:272][155]LogAIModule: Creating AISystem for world MapaPruebas
+[2020.03.17-22.52.28:272][155]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2020.03.17-22.52.28:272][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas to /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas (0.010308s)
+[2020.03.17-22.52.28:315][155]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2020.03.17-22.52.28:361][155]LogInit: XAudio2 using 'Los Kraken de toa la vida (Razer Kraken 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.17-22.52.28:395][155]LogInit: FAudioDevice initialized.
+[2020.03.17-22.52.28:403][155]LogLoad: Game class is 'IsolationGM_C'
+[2020.03.17-22.52.28:405][155]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas.MapaPruebas up for play (max tick rate 0) at 2020.03.17-23.52.28
+[2020.03.17-22.52.28:406][155]LogWorld: Bringing up level for play took: 0.001111
+[2020.03.17-22.52.28:406][155]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2020.03.17-22.52.28:426][155]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'y_5_B5CEB6174192FE84BA963889F7AE17F1' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.52.28:426][155]LogScript: Warning: Script Msg: Attempted to access index 30 from array 'x_3_8348D46A4F158C73F2267CB84449887D' of length 30 in '/Game/TopDownCPP/Blueprints/Disenos.Disenos'!
+[2020.03.17-22.52.28:444][155]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas 0,017
+[2020.03.17-22.52.28:444][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.52.59:337][856]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.52.59:338][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.52.59:338][856]LogWorld: BeginTearingDown for /Game/TopDownCPP/Maps/UEDPIE_0_MapaPruebas
+[2020.03.17-22.52.59:338][856]LogWorld: UWorld::CleanupWorld for MapaPruebas, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.52.59:357][856]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.17-22.52.59:357][856]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas' with GeneratedClass '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/MapaPruebas.MapaPruebas:PersistentLevel.MapaPruebas'
+[2020.03.17-22.52.59:405][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.17-22.52.59:411][856]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2020.03.17-22.52.59:465][858]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2020.03.17-22.53.10:522][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.17-22.53.11:284][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Maps/MapaPruebas" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.03.17-22.53.11:326][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.03.17-22.53.11:587][273]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/MapaPruebas581A007E43D0C611B64175B925BFFCA8.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas.umap'
+[2020.03.17-22.53.11:624][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Maps/MapaPruebas_BuiltData" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas_BuiltData.uasset" SILENT=true
+[2020.03.17-22.53.11:680][273]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/MapaPruebas_BuiltData243844B24AA46C291A04DB8ADDD78475.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Maps/MapaPruebas_BuiltData.uasset'
+[2020.03.17-22.53.17:439][408]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={DD0CBDF9-4D5F-5558-41FA-2EA54BC124F5}
+[2020.03.17-22.54.14:369][787]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.03.17-22.54.15:510][917]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.03.17-22.54.15:612][917]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.15:710][917]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.17-22.54.15:710][917]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.15:801][917]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.17-22.54.15:801][917]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.15:886][917]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.17-22.54.15:886][917]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.15:973][917]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.15:996][917]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.16:089][917]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.16:095][917]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.16:121][917]LogSlate: Window 'IsolationUE4 - Unreal Editor' being destroyed
+[2020.03.17-22.54.16:262][918]Cmd: QUIT_EDITOR
+[2020.03.17-22.54.16:671][918]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.17-22.54.16:685][918]LogExit: Preparing to exit.
+[2020.03.17-22.54.17:423][918]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.17:428][918]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.17:434][918]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.17:439][918]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.17:445][918]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.17:451][918]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.17:456][918]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.17:462][918]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.17:467][918]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.17:472][918]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.17:478][918]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.17:483][918]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.17:488][918]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.17:558][918]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.03.17-22.54.17:575][918]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-22.54.17:575][918]LogExit: Editor shut down
+[2020.03.17-22.54.17:576][918]LogExit: Transaction tracking system shut down
+[2020.03.17-22.54.17:925][918]LogExit: Object subsystem successfully closed.
+[2020.03.17-22.54.17:941][918]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.03.17-22.54.17:965][918]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (672)
+[2020.03.17-22.54.17:965][918]LogModuleManager: Shutting down and abandoning module SequencerWidgets (670)
+[2020.03.17-22.54.17:965][918]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (668)
+[2020.03.17-22.54.17:965][918]LogModuleManager: Shutting down and abandoning module Voice (666)
+[2020.03.17-22.54.17:965][918]LogModuleManager: Shutting down and abandoning module BlueprintGraph (664)
+[2020.03.17-22.54.17:965][918]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (662)
+[2020.03.17-22.54.17:965][918]LogModuleManager: Shutting down and abandoning module WorldBrowser (660)
+[2020.03.17-22.54.17:966][918]LogModuleManager: Shutting down and abandoning module SceneOutliner (658)
+[2020.03.17-22.54.17:966][918]LogModuleManager: Shutting down and abandoning module AddContentDialog (656)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module WidgetCarousel (655)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module EditorWidgets (652)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module CollectionManager (650)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module MeshBuilder (648)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module StatsViewer (646)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (644)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module FoliageEdit (642)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module LandscapeEditor (640)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module MeshPaintMode (638)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (636)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module ActorPickerMode (634)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module GeometryMode (632)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module TextureAlignMode (630)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module BspMode (628)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (626)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (624)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module AutomationWorker (622)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (620)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (618)
+[2020.03.17-22.54.17:968][918]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (616)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module PlacementMode (615)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module MaterialEditor (614)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (610)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (608)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (606)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (604)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (602)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module WebMMedia (600)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (598)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (596)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module SequenceRecorder (595)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (592)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (590)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (588)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (586)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (584)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (582)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (580)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (578)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (576)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (574)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (572)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module CharacterAI (570)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module SmartSnapping (568)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module SessionServices (566)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module MeshPaint (564)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module ViewportSnapping (562)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module ViewportInteraction (560)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module ClothPainter (558)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (557)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module LogVisualizer (554)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module IntroTutorials (552)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (551)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (548)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (546)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (544)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (542)
+[2020.03.17-22.54.17:969][918]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (541)
+[2020.03.17-22.54.19:083][918]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (538)
+[2020.03.17-22.54.19:083][918]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (536)
+[2020.03.17-22.54.19:083][918]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (534)
+[2020.03.17-22.54.19:083][918]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (532)
+[2020.03.17-22.54.19:083][918]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (530)
+[2020.03.17-22.54.19:083][918]LogModuleManager: Shutting down and abandoning module InputBindingEditor (528)
+[2020.03.17-22.54.19:083][918]LogModuleManager: Shutting down and abandoning module MergeActors (526)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (524)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module LocalizationService (523)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module HardwareTargeting (520)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (518)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module UndoHistory (516)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module XmlParser (514)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module Blutility (512)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (510)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (509)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (506)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module SettingsEditor (504)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module ProjectLauncher (502)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module SessionFrontend (500)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module ProfilerClient (498)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module DeviceManager (496)
+[2020.03.17-22.54.19:084][918]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (495)
+[2020.03.17-22.54.19:128][918]LogModuleManager: Shutting down and abandoning module AutomationController (492)
+[2020.03.17-22.54.19:128][918]LogModuleManager: Shutting down and abandoning module AutomationWindow (490)
+[2020.03.17-22.54.19:128][918]LogModuleManager: Shutting down and abandoning module Layers (488)
+[2020.03.17-22.54.19:128][918]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (486)
+[2020.03.17-22.54.19:128][918]LogModuleManager: Shutting down and abandoning module DetailCustomizations (484)
+[2020.03.17-22.54.19:128][918]LogModuleManager: Shutting down and abandoning module PackagesDialog (482)
+[2020.03.17-22.54.19:128][918]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (480)
+[2020.03.17-22.54.19:128][918]LogModuleManager: Shutting down and abandoning module Persona (478)
+[2020.03.17-22.54.19:128][918]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (477)
+[2020.03.17-22.54.19:128][918]LogModuleManager: Shutting down and abandoning module AnimGraph (475)
+[2020.03.17-22.54.19:128][918]LogModuleManager: Shutting down and abandoning module Kismet (472)
+[2020.03.17-22.54.19:148][918]LogModuleManager: Shutting down and abandoning module KismetWidgets (471)
+[2020.03.17-22.54.19:148][918]LogModuleManager: Shutting down and abandoning module GraphEditor (468)
+[2020.03.17-22.54.19:148][918]LogModuleManager: Shutting down and abandoning module StructViewer (466)
+[2020.03.17-22.54.19:148][918]LogModuleManager: Shutting down and abandoning module ClassViewer (464)
+[2020.03.17-22.54.19:148][918]LogModuleManager: Shutting down and abandoning module Toolbox (462)
+[2020.03.17-22.54.19:148][918]LogModuleManager: Shutting down and abandoning module DesktopPlatform (461)
+[2020.03.17-22.54.19:148][918]LogModuleManager: Shutting down and abandoning module ModuleUI (458)
+[2020.03.17-22.54.19:148][918]LogModuleManager: Shutting down and abandoning module MovieSceneTools (456)
+[2020.03.17-22.54.19:148][918]LogModuleManager: Shutting down and abandoning module OutputLog (454)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module GammaUI (452)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module Documentation (450)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module LiveCoding (448)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module LevelSequence (446)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (444)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module MovieScene (442)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (440)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module LauncherPlatform (438)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module AnalyticsET (436)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module PortalServices (434)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module PortalRpc (432)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module MessagingRpc (430)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module AIModule (428)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module GameplayDebugger (427)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module AITestSuite (425)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module NavigationSystem (423)
+[2020.03.17-22.54.19:153][918]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (420)
+[2020.03.17-22.54.19:156][918]LogModuleManager: Shutting down and abandoning module ProfilerService (418)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module TaskGraph (416)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module ScreenshotTools (414)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (412)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (410)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (408)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module EditableMesh (406)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (404)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module CableComponent (402)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module AudioCapture (400)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (398)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (396)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module AppleImageUtils (394)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module AndroidPermission (392)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (390)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (388)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module MediaCompositing (386)
+[2020.03.17-22.54.19:320][918]LogModuleManager: Shutting down and abandoning module ImgMedia (384)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (382)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (380)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (378)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module HTML5Networking (376)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (374)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (372)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module BackChannel (370)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (368)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module AutomationUtils (366)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module AlembicImporter (364)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module AlembicLibrary (363)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module GeometryCache (362)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (361)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module VariantManagerContent (356)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (354)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (352)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module PluginBrowser (350)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (348)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (346)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module CurveEditorTools (344)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module CurveEditor (343)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (340)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module CryptoKeys (338)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (336)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (334)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module UObjectPlugin (332)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (330)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (328)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module GitSourceControl (326)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module SourceControl (325)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (322)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (320)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (318)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (316)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (314)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (312)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (310)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module Paper2DEditor (308)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module IsolationUE4 (306)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module SignificanceManager (304)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (302)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (300)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (296)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module ActorSequence (294)
+[2020.03.17-22.54.19:321][918]LogModuleManager: Shutting down and abandoning module UdpMessaging (292)
+[2020.03.17-22.54.19:422][918]LogModuleManager: Shutting down and abandoning module TcpMessaging (290)
+[2020.03.17-22.54.19:523][918]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (288)
+[2020.03.17-22.54.19:523][918]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (286)
+[2020.03.17-22.54.19:523][918]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (284)
+[2020.03.17-22.54.19:523][918]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (282)
+[2020.03.17-22.54.19:523][918]LogModuleManager: Shutting down and abandoning module MagicLeapController (280)
+[2020.03.17-22.54.19:523][918]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.03.17-22.54.19:523][918]LogModuleManager: Shutting down and abandoning module MagicLeapAR (278)
+[2020.03.17-22.54.19:523][918]LogModuleManager: Shutting down and abandoning module AugmentedReality (277)
+[2020.03.17-22.54.19:523][918]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (274)
+[2020.03.17-22.54.19:523][918]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (272)
+[2020.03.17-22.54.19:523][918]LogModuleManager: Shutting down and abandoning module FacialAnimation (270)
+[2020.03.17-22.54.19:523][918]LogModuleManager: Shutting down and abandoning module DataValidation (268)
+[2020.03.17-22.54.19:523][918]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (266)
+[2020.03.17-22.54.19:523][918]LogModuleManager: Shutting down and abandoning module LevelEditor (265)
+[2020.03.17-22.54.19:525][918]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (264)
+[2020.03.17-22.54.19:525][918]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (262)
+[2020.03.17-22.54.19:525][918]LogModuleManager: Shutting down and abandoning module MainFrame (260)
+[2020.03.17-22.54.19:525][918]LogModuleManager: Shutting down and abandoning module HotReload (259)
+[2020.03.17-22.54.19:526][918]LogModuleManager: Shutting down and abandoning module ContentBrowser (255)
+[2020.03.17-22.54.19:527][918]LogModuleManager: Shutting down and abandoning module TreeMap (253)
+[2020.03.17-22.54.19:527][918]LogModuleManager: Shutting down and abandoning module AnimationSharing (250)
+[2020.03.17-22.54.19:527][918]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (248)
+[2020.03.17-22.54.19:527][918]LogModuleManager: Shutting down and abandoning module Paper2D (246)
+[2020.03.17-22.54.19:527][918]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (244)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (242)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (240)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (198)
+[2020.03.17-22.54.19:530][918]LogModuleManager: Shutting down and abandoning module EditorStyle (196)
+[2020.03.17-22.54.19:531][918]LogModuleManager: Shutting down and abandoning module UnrealEd (194)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module MRMesh (192)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (190)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (188)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module XAudio2 (186)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module Networking (184)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module Core (182)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module KismetCompiler (180)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module MeshUtilities (178)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (177)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (176)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (175)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (173)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (162)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2020.03.17-22.54.19:532][918]LogDerivedDataCache: Shutdown
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2020.03.17-22.54.19:532][918]LogXGEController: Cleaning working directory: C:/Users/Usuario/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2020.03.17-22.54.19:532][918]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2020.03.17-22.54.19:533][918]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2020.03.17-22.54.19:533][918]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2020.03.17-22.54.19:533][918]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2020.03.17-22.54.19:533][918]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2020.03.17-22.54.19:533][918]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2020.03.17-22.54.19:533][918]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2020.03.17-22.54.19:533][918]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2020.03.17-22.54.19:533][918]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2020.03.17-22.54.19:533][918]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2020.03.17-22.54.19:543][918]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.03.17-22.54.19:543][918]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2020.03.17-22.54.19:543][918]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2020.03.17-22.54.19:543][918]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2020.03.17-22.54.19:543][918]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2020.03.17-22.54.19:548][918]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2020.03.17-22.54.19:548][918]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2020.03.17-22.54.19:551][918]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2020.03.17-22.54.19:551][918]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2020.03.17-22.54.19:577][918]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2020.03.17-22.54.19:577][918]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2020.03.17-22.54.19:577][918]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2020.03.17-22.54.19:577][918]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2020.03.17-22.54.19:577][918]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2020.03.17-22.54.19:578][918]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2020.03.17-22.54.19:578][918]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2020.03.17-22.54.19:578][918]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2020.03.17-22.54.19:578][918]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2020.03.17-22.54.19:578][918]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2020.03.17-22.54.19:578][918]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2020.03.17-22.54.19:578][918]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (82)
+[2020.03.17-22.54.19:578][918]LogModuleManager: Shutting down and abandoning module PhysXCooking (80)
+[2020.03.17-22.54.19:578][918]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (78)
+[2020.03.17-22.54.19:578][918]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (77)
+[2020.03.17-22.54.19:578][918]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
+[2020.03.17-22.54.19:578][918]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
+[2020.03.17-22.54.19:578][918]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2020.03.17-22.54.19:578][918]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
+[2020.03.17-22.54.19:579][918]LogModuleManager: Shutting down and abandoning module XMPP (61)
+[2020.03.17-22.54.19:579][918]LogModuleManager: Shutting down and abandoning module WebSockets (60)
+[2020.03.17-22.54.19:607][918]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2020.03.17-22.54.19:607][918]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.03.17-22.54.19:607][918]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B68C8BB28-40D1-0CF2-CF81-45A35E040963%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=fd80b7484c49cebce9ca7bbb20cab1a7%7C83b172cb5e9940848a7baedddc2a6e48%7Ca7edd6be-0a62-40e7-a8ab-4042590a48eb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.03.17-22.54.19:629][918]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2020.03.17-22.54.19:631][918]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2020.03.17-22.54.19:632][918]LogModuleManager: Shutting down and abandoning module Media (51)
+[2020.03.17-22.54.19:633][918]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2020.03.17-22.54.19:633][918]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2020.03.17-22.54.19:633][918]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2020.03.17-22.54.19:633][918]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2020.03.17-22.54.19:633][918]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.03.17-22.54.19:633][918]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.03.17-22.54.19:633][918]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.03.17-22.54.19:635][918]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.03.17-22.54.19:635][918]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.03.17-22.54.19:635][918]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.03.17-22.54.19:635][918]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.03.17-22.54.19:635][918]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.03.17-22.54.19:637][918]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.03.17-22.54.19:637][918]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.03.17-22.54.19:637][918]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.03.17-22.54.19:637][918]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.03.17-22.54.19:637][918]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.03.17-22.54.19:637][918]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.03.17-22.54.19:637][918]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.03.17-22.54.19:637][918]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.03.17-22.54.19:637][918]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.03.17-22.54.19:637][918]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.03.17-22.54.19:637][918]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.03.17-22.54.19:637][918]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.03.17-22.54.19:639][918]LogD3D11RHI: Shutdown
+[2020.03.17-22.54.19:639][918]LogD3D11RHI: CleanupD3DDevice
+[2020.03.17-22.54.19:640][918]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.03.17-22.54.19:640][918]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.03.17-22.54.19:640][918]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.03.17-22.54.19:769][918]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.03.17-22.54.19:776][918]LogExit: Exiting.
+[2020.03.17-22.54.19:815][918]Log file closed, 03/17/20 23:54:19
