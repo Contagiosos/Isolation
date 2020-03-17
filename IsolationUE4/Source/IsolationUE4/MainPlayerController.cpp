@@ -29,6 +29,15 @@ void AMainPlayerController::BeginPlay()
 		FVector2D Aligment(0.5f, 0.5f);
 		InteractWidget->SetAlignmentInViewport(Aligment);
 	}
+	if (WMapWidget)
+	{
+		MapWidget = CreateWidget<UUserWidget>(this, WMapWidget);
+		if (MapWidget)
+		{
+			MapWidget->AddToViewport();
+			MapWidget->SetVisibility(ESlateVisibility::Visible);
+		}
+	}
 }
 
 void AMainPlayerController::Tick(float DeltaTime)
@@ -66,4 +75,19 @@ void AMainPlayerController::RemoveInteractWidget()
 	}
 }
 
+void AMainPlayerController::ShowMap()
+{
+	if (HUDOverlay)
+	{
+		MapWidget->SetVisibility(ESlateVisibility::Visible);
+	}
+}
+
+void AMainPlayerController::HideMap()
+{
+	if (HUDOverlay)
+	{
+		MapWidget->SetVisibility(ESlateVisibility::Hidden);
+	}
+}
 

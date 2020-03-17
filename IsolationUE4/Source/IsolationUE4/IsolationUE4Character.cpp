@@ -12,6 +12,8 @@
 #include "Materials/Material.h"
 #include "Engine/World.h"
 #include "Interactuable.h"
+#include "MainPlayerController.h"
+#include <Kismet/GameplayStatics.h>
 
 AIsolationUE4Character::AIsolationUE4Character()
 {
@@ -61,6 +63,9 @@ void AIsolationUE4Character::SetupPlayerInputComponent(UInputComponent* PlayerIn
 	PlayerInputComponent->BindAxis("MoveRight", this, &AIsolationUE4Character::MoveRight);
 
 	PlayerInputComponent->BindAction("Interact",IE_Pressed , this, &AIsolationUE4Character::Interact);
+
+	PlayerInputComponent->BindAction("ShowMap", IE_Pressed, this, &AIsolationUE4Character::ShowMap);
+	PlayerInputComponent->BindAction("ShowMap", IE_Released, this, &AIsolationUE4Character::HideMap);
 }
 
 void AIsolationUE4Character::Interact()
@@ -69,6 +74,20 @@ void AIsolationUE4Character::Interact()
 	{
 		InteractuableActual->Interaccion();
 	}
+}
+
+void AIsolationUE4Character::ShowMap()
+{
+	AMainPlayerController* PlayerController = Cast<AMainPlayerController>(UGameplayStatics::GetPlayerController(GetWorld(), 0));
+	if (PlayerController)
+		PlayerController->ShowMap();
+}
+
+void AIsolationUE4Character::HideMap()
+{
+	AMainPlayerController* PlayerController = Cast<AMainPlayerController>(UGameplayStatics::GetPlayerController(GetWorld(), 0));
+	if (PlayerController)
+		PlayerController->HideMap();
 }
 
 void AIsolationUE4Character::MoveForward(float value)

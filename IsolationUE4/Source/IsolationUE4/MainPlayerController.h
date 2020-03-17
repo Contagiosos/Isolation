@@ -29,6 +29,12 @@ public:
 	UUserWidget* InteractWidget;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
+	TSubclassOf<UUserWidget> WMapWidget;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Widgets")
+	UUserWidget* MapWidget;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
 	TSubclassOf<UUserWidget> WPauseMenu;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Widgets")
@@ -42,7 +48,8 @@ public:
 	UPROPERTY(BlueprintReadWrite, Category = "Position")
 	int PosicionActualIndex;
 
-
+	void ShowMap();
+	void HideMap();
 
 	UPROPERTY(BlueprintReadWrite, Category = "HUD")
 	FVector InteractLocation;
