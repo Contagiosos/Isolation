@@ -77,7 +77,7 @@ void AMainPlayerController::RemoveInteractWidget()
 
 void AMainPlayerController::ShowMap()
 {
-	if (HUDOverlay)
+	if (MapWidget)
 	{
 		MapWidget->SetVisibility(ESlateVisibility::Visible);
 	}
@@ -85,7 +85,7 @@ void AMainPlayerController::ShowMap()
 
 void AMainPlayerController::HideMap()
 {
-	if (HUDOverlay)
+	if (MapWidget)
 	{
 		MapWidget->SetVisibility(ESlateVisibility::Hidden);
 	}
