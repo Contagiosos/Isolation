@@ -1,0 +1,27 @@
+D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\Definitions.IsolationUE4.h
+d:\ue4\contagiosos\isolation\isolationue4\source\isolationue4\Interactuable.h
+D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Inc\IsolationUE4\Interactuable.generated.h
+C:\Program Files\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
+d:\ue4\contagiosos\isolation\isolationue4\source\isolationue4\IsolationUE4Character.h
+C:\Program Files\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Inc\IsolationUE4\IsolationUE4Character.generated.h
+C:\Program Files\UE_4.23\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\UE_4.23\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+C:\Program Files\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+C:\Program Files\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\UE_4.23\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+c:\program files\ue_4.23\engine\source\runtime\engine\classes\kismet\GameplayStaticsTypes.h
+C:\Program Files\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+d:\ue4\contagiosos\isolation\isolationue4\source\isolationue4\MainPlayerController.h
+D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Inc\IsolationUE4\MainPlayerController.generated.h
+C:\Program Files\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+C:\Program Files\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h

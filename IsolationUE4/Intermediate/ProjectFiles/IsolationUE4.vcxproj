@@ -367,9 +367,11 @@
     <ClCompile Include="..\..\Source\IsolationUE4\Boton.cpp" />
     <ClCompile Include="..\..\Source\IsolationUE4\Interactuable.cpp" />
     <ClCompile Include="..\..\Source\IsolationUE4\MainPlayerController.cpp" />
+    <ClCompile Include="..\..\Source\IsolationUE4\Nivel.cpp" />
     <ClInclude Include="..\..\Source\IsolationUE4\Boton.h" />
     <ClInclude Include="..\..\Source\IsolationUE4\Interactuable.h" />
     <ClInclude Include="..\..\Source\IsolationUE4\MainPlayerController.h" />
+    <ClInclude Include="..\..\Source\IsolationUE4\Nivel.h" />
     <None Include="..\..\IsolationUE4.uproject" />
     <None Include="..\..\Source\IsolationUE4.Target.cs" />
     <None Include="..\..\Source\IsolationUE4Editor.Target.cs" />

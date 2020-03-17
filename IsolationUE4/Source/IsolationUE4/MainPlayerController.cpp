@@ -35,7 +35,7 @@ void AMainPlayerController::BeginPlay()
 		if (MapWidget)
 		{
 			MapWidget->AddToViewport();
-			MapWidget->SetVisibility(ESlateVisibility::Visible);
+			MapWidget->SetVisibility(ESlateVisibility::Hidden);
 		}
 	}
 }

@@ -70,6 +70,9 @@
     <ClInclude Include="..\..\Source\IsolationUE4\Boton.h">
       <Filter>Source\IsolationUE4</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\IsolationUE4\Nivel.h">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\IsolationUE4\MainPlayerController.cpp">
@@ -79,6 +82,9 @@
       <Filter>Source\IsolationUE4</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\IsolationUE4\Boton.cpp">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IsolationUE4\Nivel.cpp">
       <Filter>Source\IsolationUE4</Filter>
     </ClCompile>
   </ItemGroup>

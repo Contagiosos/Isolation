@@ -16,6 +16,11 @@ class ISOLATIONUE4_API AMainPlayerController : public APlayerController
 
 public:
 
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Spawning")
+	TArray<TSubclassOf<class ANivel>> LevelsToSpawn;
+
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
 	TSubclassOf<class UUserWidget> HUDOverlayAsset;
 
