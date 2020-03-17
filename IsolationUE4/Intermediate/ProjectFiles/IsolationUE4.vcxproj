@@ -364,8 +364,10 @@
     <NMakeOutput>..\..\Binaries\Android\IsolationUE4-Android-Shipping.so</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\IsolationUE4\Boton.cpp" />
     <ClCompile Include="..\..\Source\IsolationUE4\Interactuable.cpp" />
     <ClCompile Include="..\..\Source\IsolationUE4\MainPlayerController.cpp" />
+    <ClInclude Include="..\..\Source\IsolationUE4\Boton.h" />
     <ClInclude Include="..\..\Source\IsolationUE4\Interactuable.h" />
     <ClInclude Include="..\..\Source\IsolationUE4\MainPlayerController.h" />
     <None Include="..\..\IsolationUE4.uproject" />

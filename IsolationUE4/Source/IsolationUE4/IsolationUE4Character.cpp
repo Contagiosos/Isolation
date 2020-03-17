@@ -65,9 +65,9 @@ void AIsolationUE4Character::SetupPlayerInputComponent(UInputComponent* PlayerIn
 
 void AIsolationUE4Character::Interact()
 {
-	if (SubClaseInteractuableActual)
+	if (InteractuableActual)
 	{
-
+		InteractuableActual->Interaccion();
 	}
 }
 

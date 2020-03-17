@@ -8,13 +8,90 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef ISOLATIONUE4_Interactuable_generated_h
 #error "Interactuable.generated.h already included, missing '#pragma once' in Interactuable.h"
 #endif
 #define ISOLATIONUE4_Interactuable_generated_h
 
-#define IsolationUE4_Source_IsolationUE4_Interactuable_h_12_RPC_WRAPPERS
-#define IsolationUE4_Source_IsolationUE4_Interactuable_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define IsolationUE4_Source_IsolationUE4_Interactuable_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execBoxTriggerEndOverlap) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BoxTriggerEndOverlap(Z_Param_OverlappedComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execBoxTriggerBeginOverlap) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_GET_UBOOL(Z_Param_bFromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BoxTriggerBeginOverlap(Z_Param_OverlappedComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execInteraccion) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Interaccion(); \
+		P_NATIVE_END; \
+	}
+
+
+#define IsolationUE4_Source_IsolationUE4_Interactuable_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execBoxTriggerEndOverlap) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BoxTriggerEndOverlap(Z_Param_OverlappedComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execBoxTriggerBeginOverlap) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_GET_UBOOL(Z_Param_bFromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->BoxTriggerBeginOverlap(Z_Param_OverlappedComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execInteraccion) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Interaccion(); \
+		P_NATIVE_END; \
+	}
+
+
+#define IsolationUE4_Source_IsolationUE4_Interactuable_h_12_EVENT_PARMS
+#define IsolationUE4_Source_IsolationUE4_Interactuable_h_12_CALLBACK_WRAPPERS
 #define IsolationUE4_Source_IsolationUE4_Interactuable_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAInteractuable(); \
@@ -58,12 +135,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AInteractuable); \
 
 
 #define IsolationUE4_Source_IsolationUE4_Interactuable_h_12_PRIVATE_PROPERTY_OFFSET
-#define IsolationUE4_Source_IsolationUE4_Interactuable_h_9_PROLOG
+#define IsolationUE4_Source_IsolationUE4_Interactuable_h_9_PROLOG \
+	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_EVENT_PARMS
+
+
 #define IsolationUE4_Source_IsolationUE4_Interactuable_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_PRIVATE_PROPERTY_OFFSET \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_RPC_WRAPPERS \
+	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_CALLBACK_WRAPPERS \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_INCLASS \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -75,6 +156,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_PRIVATE_PROPERTY_OFFSET \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_CALLBACK_WRAPPERS \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_INCLASS_NO_PURE_DECLS \
 	IsolationUE4_Source_IsolationUE4_Interactuable_h_12_ENHANCED_CONSTRUCTORS \
 private: \
