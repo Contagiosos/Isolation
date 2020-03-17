@@ -1,5 +1,4 @@
-*.log
-*.ini
+
 # Visual Studio 2015 user specific files
 .vs/
 
@@ -8,6 +7,8 @@
 *.lo
 *.o
 *.obj
+*.log
+*.ini
 
 # Precompiled Headers
 *.gch
