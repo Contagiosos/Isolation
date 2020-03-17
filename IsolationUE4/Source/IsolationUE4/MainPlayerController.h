@@ -39,15 +39,18 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "HUD")
 	void RemoveInteractWidget();
 
-	
+	UPROPERTY(BlueprintReadWrite, Category = "Position")
+	int PosicionActualIndex;
 
-	bool bDisplayInteractWidget;
+
 
 	UPROPERTY(BlueprintReadWrite, Category = "HUD")
 	FVector InteractLocation;
 
 protected:
 	virtual void BeginPlay() override;
+
+	bool bDisplayInteractWidget;
 
 	virtual void Tick(float DeltaTime) override;
 	

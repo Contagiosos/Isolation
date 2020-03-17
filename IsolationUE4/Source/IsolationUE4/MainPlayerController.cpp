@@ -9,6 +9,8 @@ void AMainPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 
+	PosicionActualIndex = 4;
+
 	if (HUDOverlayAsset) {
 
 		HUDOverlay = CreateWidget<UUserWidget>(this, HUDOverlayAsset);
@@ -24,7 +26,7 @@ void AMainPlayerController::BeginPlay()
 			InteractWidget->AddToViewport();
 			InteractWidget->SetVisibility(ESlateVisibility::Hidden);
 		}
-		FVector2D Aligment(0.f, 0.f);
+		FVector2D Aligment(0.5f, 0.5f);
 		InteractWidget->SetAlignmentInViewport(Aligment);
 	}
 }
@@ -37,9 +39,9 @@ void AMainPlayerController::Tick(float DeltaTime)
 	{
 		FVector2D PositionInViewport;
 		ProjectWorldLocationToScreen(InteractLocation, PositionInViewport);
-		PositionInViewport.Y -= 80.f;
+	//	PositionInViewport.Y -= 80.f;
 
-		FVector2D SizeInViewport(150.f, 150.f);
+		FVector2D SizeInViewport(100.f, 100.f);
 
 		InteractWidget->SetPositionInViewport(PositionInViewport);
 		InteractWidget->SetDesiredSizeInViewport(SizeInViewport);
