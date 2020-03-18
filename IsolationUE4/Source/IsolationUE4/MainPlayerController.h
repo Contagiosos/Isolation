@@ -45,6 +45,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Widgets")
 	UUserWidget* PauseMenu;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
+	TSubclassOf<UUserWidget> WAhogamiento;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Widgets")
+	UUserWidget* Ahogamiento;
+
 	UFUNCTION(BlueprintCallable, Category = "HUD")
 	void DisplayInteractWidget();
 	UFUNCTION(BlueprintCallable, Category = "HUD")

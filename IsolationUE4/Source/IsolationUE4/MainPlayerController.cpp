@@ -47,6 +47,15 @@ void AMainPlayerController::BeginPlay()
 			PauseMenu->SetVisibility(ESlateVisibility::Hidden);
 		}
 	}
+	if (WAhogamiento)
+	{
+		Ahogamiento = CreateWidget<UUserWidget>(this, WAhogamiento);
+		if (Ahogamiento)
+		{
+			Ahogamiento->AddToViewport();
+			Ahogamiento->SetVisibility(ESlateVisibility::Hidden);
+		}
+	}
 }
 
 void AMainPlayerController::Tick(float DeltaTime)
