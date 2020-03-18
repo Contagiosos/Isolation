@@ -38,6 +38,15 @@ void AMainPlayerController::BeginPlay()
 			MapWidget->SetVisibility(ESlateVisibility::Hidden);
 		}
 	}
+	if (WPauseMenu)
+	{
+		PauseMenu = CreateWidget<UUserWidget>(this, WPauseMenu);
+		if (PauseMenu)
+		{
+			PauseMenu->AddToViewport();
+			PauseMenu->SetVisibility(ESlateVisibility::Hidden);
+		}
+	}
 }
 
 void AMainPlayerController::Tick(float DeltaTime)

@@ -64,6 +64,8 @@ void AIsolationUE4Character::SetupPlayerInputComponent(UInputComponent* PlayerIn
 
 	PlayerInputComponent->BindAction("Interact",IE_Pressed , this, &AIsolationUE4Character::Interact);
 
+	//PlayerInputComponent->BindAction("Pause", IE_Pressed, this, &AIsolationUE4Character::Pause);
+
 	PlayerInputComponent->BindAction("ShowMap", IE_Pressed, this, &AIsolationUE4Character::ShowMap);
 	PlayerInputComponent->BindAction("ShowMap", IE_Released, this, &AIsolationUE4Character::HideMap);
 }
