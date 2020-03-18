@@ -3988,3 +3988,33 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.18-19.47.44:970][299]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
 [2020.03.18-19.48.04:692][288]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
 [2020.03.18-19.48.04:755][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.03.18-19.49.38:969][171]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2020.03.18-19.49.55:304][171]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.18-19.49.56:387][244]LogBlueprint: Warning: [Compiler Nivel_Sierras] Could not find a variable named "Status" in 'Saw_L_BP_C'.
+Make sure 'Saw_L_BP_C' has been compiled for  Set Status
+[2020.03.18-19.49.56:387][244]LogBlueprint: Warning: [Compiler Nivel_Sierras] Could not find a variable named "Status" in 'Saw_L_BP_C'.
+Make sure 'Saw_L_BP_C' has been compiled for  Set Status
+[2020.03.18-19.49.56:391][244]LogBlueprint: Error: [Compiler Nivel_Sierras] The property associated with  Status  could not be found in '/Game/TopDownCPP/GameplayMechanics/Nivel_Sierras.Nivel_Sierras_C'
+[2020.03.18-19.49.56:391][244]LogBlueprint: Error: [Compiler Nivel_Sierras] The property associated with  Status  could not be found in '/Game/TopDownCPP/GameplayMechanics/Nivel_Sierras.Nivel_Sierras_C'
+[2020.03.18-19.49.56:438][244]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.03.18-19.49.57:544][244]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.18-19.49.57:640][244]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.03.18-19.49.57:679][244]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.03.18-19.49.57:711][244]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.03.18-19.49.58:573][315]LogUObjectHash: Compacting FUObjectHashTables data took   4.73ms
+[2020.03.18-19.50.00:955][315]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.18-19.50.02:423][315]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TopDownCPP/GameplayMechanics/Saw_L_BP.Saw_L_BP
+[2020.03.18-19.50.03:462][315]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.03.18-19.50.03:714][315]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.03.18-19.50.03:750][315]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.03.18-19.50.03:782][315]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.03.18-19.50.06:353][497]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.03.18-19.50.07:490][497]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.18-19.50.09:274][497]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/TopDownCPP/GameplayMechanics/Saw_R_BP.Saw_R_BP
+[2020.03.18-19.50.09:530][497]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2020.03.18-19.50.09:779][497]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.03.18-19.50.09:815][497]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.03.18-19.50.09:849][497]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.03.18-19.50.55:929][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
