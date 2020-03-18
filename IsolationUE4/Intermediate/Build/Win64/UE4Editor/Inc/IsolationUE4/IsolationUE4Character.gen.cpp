@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeIsolationUE4Character() {}
 	UPackage* Z_Construct_UPackage__Script_IsolationUE4();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	ISOLATIONUE4_API UClass* Z_Construct_UClass_AInteractuable_NoRegister();
 // End Cross Module References
 	void AIsolationUE4Character::StaticRegisterNativesAIsolationUE4Character()
 	{
@@ -41,6 +42,15 @@ void EmptyLinkFunctionForGeneratedCodeIsolationUE4Character() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TopDownCameraComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TopDownCameraComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bOnAnimation_MetaData[];
+#endif
+		static void NewProp_bOnAnimation_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bOnAnimation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InteractuableActual_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InteractuableActual;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -80,9 +90,29 @@ void EmptyLinkFunctionForGeneratedCodeIsolationUE4Character() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_TopDownCameraComponent = { "TopDownCameraComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIsolationUE4Character, TopDownCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_TopDownCameraComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_TopDownCameraComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_bOnAnimation_MetaData[] = {
+		{ "Category", "bool" },
+		{ "ModuleRelativePath", "IsolationUE4Character.h" },
+	};
+#endif
+	void Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_bOnAnimation_SetBit(void* Obj)
+	{
+		((AIsolationUE4Character*)Obj)->bOnAnimation = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_bOnAnimation = { "bOnAnimation", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AIsolationUE4Character), &Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_bOnAnimation_SetBit, METADATA_PARAMS(Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_bOnAnimation_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_bOnAnimation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_InteractuableActual_MetaData[] = {
+		{ "Category", "Interactuable" },
+		{ "ModuleRelativePath", "IsolationUE4Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_InteractuableActual = { "InteractuableActual", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIsolationUE4Character, InteractuableActual), Z_Construct_UClass_AInteractuable_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_InteractuableActual_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_InteractuableActual_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AIsolationUE4Character_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_CameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_TopDownCameraComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_bOnAnimation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIsolationUE4Character_Statics::NewProp_InteractuableActual,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AIsolationUE4Character_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AIsolationUE4Character>::IsAbstract,
@@ -111,7 +141,7 @@ void EmptyLinkFunctionForGeneratedCodeIsolationUE4Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AIsolationUE4Character, 4122280718);
+	IMPLEMENT_CLASS(AIsolationUE4Character, 827158635);
 	template<> ISOLATIONUE4_API UClass* StaticClass<AIsolationUE4Character>()
 	{
 		return AIsolationUE4Character::StaticClass();

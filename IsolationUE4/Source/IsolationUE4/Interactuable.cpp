@@ -38,6 +38,8 @@ AInteractuable::AInteractuable()
 
 	Mesh4=CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh4"));
 	Mesh4->SetupAttachment(GetRootComponent());
+
+	bEsBlueprint = true;
 }
 
 // Called when the game starts or when spawned

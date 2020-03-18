@@ -94,6 +94,9 @@ void AIsolationUE4Character::HideMap()
 
 void AIsolationUE4Character::MoveForward(float value)
 {
+	if (bOnAnimation)
+		return;
+
 	//const FRotator Rotation = Controller->GetControlRotation();
 	const FRotator Rotation = CameraBoom->GetComponentRotation();
 	const FRotator YawRotation(0.f, Rotation.Yaw, 0.0f);
@@ -105,6 +108,9 @@ void AIsolationUE4Character::MoveForward(float value)
 
 void AIsolationUE4Character::MoveRight(float value)
 {
+	if (bOnAnimation)
+		return;
+
 	//const FRotator Rotation = Controller->GetControlRotation();
 	const FRotator Rotation = CameraBoom->GetComponentRotation();
 	const FRotator YawRotation(0.f, Rotation.Yaw, 0.0f);

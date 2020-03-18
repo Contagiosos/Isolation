@@ -312,7 +312,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractuable() {}
 		{ "ModuleRelativePath", "Interactuable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_LocalizacionWidget = { "LocalizacionWidget", nullptr, (EPropertyFlags)0x0010000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractuable, LocalizacionWidget), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_LocalizacionWidget_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_LocalizacionWidget_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_LocalizacionWidget = { "LocalizacionWidget", nullptr, (EPropertyFlags)0x001000000009000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractuable, LocalizacionWidget), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_LocalizacionWidget_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_LocalizacionWidget_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInteractuable_Statics::NewProp_BoxTrigger_MetaData[] = {
 		{ "Category", "Mesh" },
@@ -320,7 +320,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractuable() {}
 		{ "ModuleRelativePath", "Interactuable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_BoxTrigger = { "BoxTrigger", nullptr, (EPropertyFlags)0x0010000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractuable, BoxTrigger), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_BoxTrigger_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_BoxTrigger_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_BoxTrigger = { "BoxTrigger", nullptr, (EPropertyFlags)0x001000000009000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractuable, BoxTrigger), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_BoxTrigger_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_BoxTrigger_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh4_MetaData[] = {
 		{ "Category", "Mesh" },
@@ -328,7 +328,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractuable() {}
 		{ "ModuleRelativePath", "Interactuable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh4 = { "Mesh4", nullptr, (EPropertyFlags)0x0010000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractuable, Mesh4), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh4_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh4_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh4 = { "Mesh4", nullptr, (EPropertyFlags)0x001000000009000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractuable, Mesh4), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh4_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh4_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh3_MetaData[] = {
 		{ "Category", "Mesh" },
@@ -336,7 +336,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractuable() {}
 		{ "ModuleRelativePath", "Interactuable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh3 = { "Mesh3", nullptr, (EPropertyFlags)0x0010000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractuable, Mesh3), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh3_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh3_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh3 = { "Mesh3", nullptr, (EPropertyFlags)0x001000000009000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractuable, Mesh3), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh3_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh3_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh2_MetaData[] = {
 		{ "Category", "Mesh" },
@@ -344,7 +344,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractuable() {}
 		{ "ModuleRelativePath", "Interactuable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh2 = { "Mesh2", nullptr, (EPropertyFlags)0x0010000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractuable, Mesh2), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh2_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh2_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh2 = { "Mesh2", nullptr, (EPropertyFlags)0x001000000009000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractuable, Mesh2), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh2_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh2_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh1_MetaData[] = {
 		{ "Category", "Mesh" },
@@ -352,7 +352,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractuable() {}
 		{ "ModuleRelativePath", "Interactuable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh1 = { "Mesh1", nullptr, (EPropertyFlags)0x0010000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractuable, Mesh1), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh1_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh1_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh1 = { "Mesh1", nullptr, (EPropertyFlags)0x001000000009000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractuable, Mesh1), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh1_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_Mesh1_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInteractuable_Statics::NewProp_MeshPrincipal_MetaData[] = {
 		{ "Category", "Mesh" },
@@ -360,7 +360,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractuable() {}
 		{ "ModuleRelativePath", "Interactuable.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_MeshPrincipal = { "MeshPrincipal", nullptr, (EPropertyFlags)0x0010000000090009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractuable, MeshPrincipal), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_MeshPrincipal_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_MeshPrincipal_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInteractuable_Statics::NewProp_MeshPrincipal = { "MeshPrincipal", nullptr, (EPropertyFlags)0x001000000009000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInteractuable, MeshPrincipal), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInteractuable_Statics::NewProp_MeshPrincipal_MetaData, ARRAY_COUNT(Z_Construct_UClass_AInteractuable_Statics::NewProp_MeshPrincipal_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AInteractuable_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractuable_Statics::NewProp_bEsBlueprint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInteractuable_Statics::NewProp_LocalizacionWidget,
@@ -398,7 +398,7 @@ void EmptyLinkFunctionForGeneratedCodeInteractuable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AInteractuable, 2212433796);
+	IMPLEMENT_CLASS(AInteractuable, 2066682380);
 	template<> ISOLATIONUE4_API UClass* StaticClass<AInteractuable>()
 	{
 		return AInteractuable::StaticClass();

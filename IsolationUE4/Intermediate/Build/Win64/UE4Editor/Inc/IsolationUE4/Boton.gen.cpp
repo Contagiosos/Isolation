@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeBoton() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABoton, 30102236);
+	IMPLEMENT_CLASS(ABoton, 863276651);
 	template<> ISOLATIONUE4_API UClass* StaticClass<ABoton>()
 	{
 		return ABoton::StaticClass();

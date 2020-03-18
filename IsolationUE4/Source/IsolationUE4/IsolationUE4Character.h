@@ -27,9 +27,13 @@ public:
 
 	void Interact();
 	bool bPuedeInteractuar;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Interactuable")
 	class AInteractuable* InteractuableActual;
 
 	TSubclassOf<AInteractuable>* SubClaseInteractuableActual;
+
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "bool")
+	bool bOnAnimation;
 
 	void ShowMap();
 	void HideMap();
