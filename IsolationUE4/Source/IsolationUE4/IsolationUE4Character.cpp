@@ -72,9 +72,12 @@ void AIsolationUE4Character::SetupPlayerInputComponent(UInputComponent* PlayerIn
 
 void AIsolationUE4Character::Interact()
 {
-	if (InteractuableActual)
+	if (!bOnAnimation)
 	{
-		InteractuableActual->Interaccion();
+		if (InteractuableActual)
+		{
+			InteractuableActual->Interaccion();
+		}
 	}
 }
 
