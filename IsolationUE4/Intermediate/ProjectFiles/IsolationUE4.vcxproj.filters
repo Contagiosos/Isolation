@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\IsolationUE4.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EA183823-8403-484A-B89D-F62546594324}</UniqueIdentifier>
+      <UniqueIdentifier>{7BDEEA42-58B1-4E59-8AAB-5B45DA0745AF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\IsolationUE4.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{DE5E231B-EDEB-446E-82BB-6F0AEF0E47CA}</UniqueIdentifier>
+      <UniqueIdentifier>{61CBA162-FF1D-49C3-B671-0ACF9EB2FB3E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,20 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\IsolationUE4">
-      <UniqueIdentifier>{9516A8B2-3224-4DF5-B254-7AE6EBBA369C}</UniqueIdentifier>
+      <UniqueIdentifier>{47CB3C9B-B847-47B8-841E-02DD1A2E7A92}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\IsolationUE4\Boton.cpp">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IsolationUE4\Boton.h">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\IsolationUE4\Interactuable.cpp">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IsolationUE4\Interactuable.h">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClInclude>
     <None Include="..\..\Source\IsolationUE4\IsolationUE4.Build.cs">
       <Filter>Source\IsolationUE4</Filter>
     </None>
@@ -59,33 +71,17 @@
     <ClInclude Include="..\..\Source\IsolationUE4\IsolationUE4PlayerController.h">
       <Filter>Source\IsolationUE4</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\IsolationUE4\MainPlayerController.h">
-      <Filter>Source\IsolationUE4</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\IsolationUE4\Interactuable.h">
-      <Filter>Source\IsolationUE4</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\IsolationUE4\Boton.h">
-      <Filter>Source\IsolationUE4</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\IsolationUE4\Nivel.h">
-      <Filter>Source\IsolationUE4</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\IsolationUE4\MainPlayerController.cpp">
       <Filter>Source\IsolationUE4</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\IsolationUE4\Interactuable.cpp">
+    <ClInclude Include="..\..\Source\IsolationUE4\MainPlayerController.h">
       <Filter>Source\IsolationUE4</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\IsolationUE4\Boton.cpp">
-      <Filter>Source\IsolationUE4</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\IsolationUE4\Nivel.cpp">
       <Filter>Source\IsolationUE4</Filter>
     </ClCompile>
+    <ClInclude Include="..\..\Source\IsolationUE4\Nivel.h">
+      <Filter>Source\IsolationUE4</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

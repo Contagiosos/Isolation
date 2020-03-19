@@ -1,0 +1,9 @@
+D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4\Development\IsolationUE4\Definitions.IsolationUE4.h
+C:\Program Files\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Source\IsolationUE4/IsolationUE4GameMode.h
+C:\Program Files\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\UE_4.23\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\UE_4.23\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\GameModeBase.generated.h
+d:\ue4\contagiosos\isolation\isolationue4\intermediate\build\win64\ue4\inc\isolationue4\IsolationUE4GameMode.generated.h

@@ -1,0 +1,3 @@
+D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4\Development\IsolationUE4\Definitions.IsolationUE4.h
+d:\ue4\contagiosos\isolation\isolationue4\source\isolationue4\Nivel.h
+D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4\Inc\IsolationUE4\Nivel.generated.h
