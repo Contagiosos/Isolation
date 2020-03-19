@@ -1,3 +1,7 @@
 D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\Definitions.IsolationUE4.h
 d:\ue4\contagiosos\isolation\isolationue4\source\isolationue4\Nivel.h
 D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Inc\IsolationUE4\Nivel.generated.h
+C:\Program Files\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+C:\Program Files\UE_4.23\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h

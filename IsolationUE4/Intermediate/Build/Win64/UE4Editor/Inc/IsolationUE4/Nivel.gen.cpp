@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeNivel() {}
 	ISOLATIONUE4_API UFunction* Z_Construct_UFunction_ANivel_SetDirection();
 	ISOLATIONUE4_API UFunction* Z_Construct_UFunction_ANivel_SetPosition();
 	ISOLATIONUE4_API UFunction* Z_Construct_UFunction_ANivel_UpdateDoors();
+	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
 	static FName NAME_ANivel_SetDirection = FName(TEXT("SetDirection"));
 	void ANivel::SetDirection(int32 Direction)
@@ -144,6 +145,10 @@ void EmptyLinkFunctionForGeneratedCodeNivel() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_X_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_X;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnLocation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpawnLocation;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -177,9 +182,18 @@ void EmptyLinkFunctionForGeneratedCodeNivel() {}
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ANivel_Statics::NewProp_X = { "X", nullptr, (EPropertyFlags)0x0010000000000004, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANivel, X), METADATA_PARAMS(Z_Construct_UClass_ANivel_Statics::NewProp_X_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANivel_Statics::NewProp_X_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANivel_Statics::NewProp_SpawnLocation_MetaData[] = {
+		{ "Category", "Spawn" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Nivel.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANivel_Statics::NewProp_SpawnLocation = { "SpawnLocation", nullptr, (EPropertyFlags)0x001000000009001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANivel, SpawnLocation), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANivel_Statics::NewProp_SpawnLocation_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANivel_Statics::NewProp_SpawnLocation_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANivel_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANivel_Statics::NewProp_Y,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANivel_Statics::NewProp_X,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANivel_Statics::NewProp_SpawnLocation,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANivel_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ANivel>::IsAbstract,
@@ -208,7 +222,7 @@ void EmptyLinkFunctionForGeneratedCodeNivel() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANivel, 3298191900);
+	IMPLEMENT_CLASS(ANivel, 1647587385);
 	template<> ISOLATIONUE4_API UClass* StaticClass<ANivel>()
 	{
 		return ANivel::StaticClass();

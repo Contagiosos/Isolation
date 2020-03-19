@@ -2,6 +2,7 @@
 
 
 #include "Nivel.h"
+#include <Components/SphereComponent.h>
 
 // Sets default values
 ANivel::ANivel()

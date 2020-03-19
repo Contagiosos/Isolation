@@ -15,6 +15,9 @@ public:
 	// Sets default values for this actor's properties
 	ANivel();
 
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Spawn")
+	class USphereComponent* SpawnLocation;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
