@@ -54,6 +54,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Widgets")
 	UUserWidget* Ahogamiento;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
+		TSubclassOf<UUserWidget> Wmensaje;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Widgets")
+		UUserWidget* Mensaje;
+
 	UFUNCTION(BlueprintCallable, Category = "HUD")
 	void DisplayInteractWidget();
 	UFUNCTION(BlueprintCallable, Category = "HUD")

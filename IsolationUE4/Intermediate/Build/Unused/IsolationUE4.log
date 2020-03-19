@@ -1,6 +1,18 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\UE4\CONTAGIOSOS\Isolation).
   Parsing headers for IsolationUE4Editor
     Running UnrealHeaderTool "D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\IsolationUE4.uproject" "D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\IsolationUE4Editor\Development\IsolationUE4Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for IsolationUE4Editor in 4,8470147 seconds
-  Target is up to date
-  Total execution time: 5,42 seconds
+  Reflection code generated for IsolationUE4Editor in 5,5388104 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 8 actions with 6 processes...
+    [1/8] IsolationUE4.init.gen.cpp
+    [2/8] IsolationUE4Character.cpp
+    [3/8] MainPlayerController.gen.cpp
+    [4/8] Interactuable.cpp
+    [5/8] MainPlayerController.cpp
+    [6/8] UE4Editor-IsolationUE4-0001.lib
+       Creando biblioteca D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\UE4Editor-IsolationUE4-0001.lib y objeto D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\UE4Editor-IsolationUE4-0001.exp
+    [7/8] UE4Editor-IsolationUE4-0001.dll
+       Creando biblioteca D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\UE4Editor-IsolationUE4-0001.suppressed.lib y objeto D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\UE4Editor-IsolationUE4-0001.suppressed.exp
+    [8/8] IsolationUE4Editor.target
+  Total time in Parallel executor: 15,54 seconds
+  Total execution time: 21,85 seconds
