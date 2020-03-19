@@ -56,6 +56,15 @@ void AMainPlayerController::BeginPlay()
 			Ahogamiento->SetVisibility(ESlateVisibility::Hidden);
 		}
 	}
+	if (Wmensaje)
+	{
+		Mensaje = CreateWidget<UUserWidget>(this, Wmensaje);
+		if (Mensaje)
+		{
+			Mensaje->AddToViewport();
+			Mensaje->SetVisibility(ESlateVisibility::Hidden);
+		}
+	}
 }
 
 void AMainPlayerController::Tick(float DeltaTime)
