@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\IsolationUE4.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E25CC636-CEB5-47D0-9BD5-157E3D966E1E}</UniqueIdentifier>
+      <UniqueIdentifier>{616C1EFE-CA84-417F-B0BE-DD5961100430}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\IsolationUE4.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{328D6475-1D5F-4453-B22B-8BCA49F4B05A}</UniqueIdentifier>
+      <UniqueIdentifier>{C858B111-A5D3-4A17-B6A1-9D9832C7384D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\IsolationUE4">
-      <UniqueIdentifier>{2949559F-4C49-4EBA-B57C-C3D6BB7AEFAF}</UniqueIdentifier>
+      <UniqueIdentifier>{0C3A19BE-F81E-41B8-BEF8-C93EF1ACD1FC}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\IsolationUE4\Boton.cpp">
       <Filter>Source\IsolationUE4</Filter>
