@@ -65,6 +65,15 @@ void AMainPlayerController::BeginPlay()
 			Mensaje->SetVisibility(ESlateVisibility::Hidden);
 		}
 	}
+	if (WInicioFinal)
+	{
+		InicioFinal = CreateWidget<UUserWidget>(this, WInicioFinal);
+		if (InicioFinal)
+		{
+			InicioFinal->AddToViewport();
+			InicioFinal->SetVisibility(ESlateVisibility::Hidden);
+		}
+	}
 }
 
 void AMainPlayerController::Tick(float DeltaTime)

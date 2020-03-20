@@ -1,14 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\UE4\CONTAGIOSOS\Isolation).
   Parsing headers for IsolationUE4Editor
     Running UnrealHeaderTool "D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\IsolationUE4.uproject" "D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\IsolationUE4Editor\Development\IsolationUE4Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for IsolationUE4Editor in 4,9608048 seconds
+  Reflection code generated for IsolationUE4Editor in 4,8961357 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 6 processes...
-    [1/4] Nivel.cpp
-    [2/4] UE4Editor-IsolationUE4.lib
-       Creando biblioteca D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\UE4Editor-IsolationUE4.lib y objeto D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\UE4Editor-IsolationUE4.exp
-    [3/4] UE4Editor-IsolationUE4.dll
-       Creando biblioteca D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\UE4Editor-IsolationUE4.suppressed.lib y objeto D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\UE4Editor-IsolationUE4.suppressed.exp
+    [1/4] MainPlayerController.cpp
+    [2/4] UE4Editor-IsolationUE4-0001.lib
+       Creando biblioteca D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\UE4Editor-IsolationUE4-0001.lib y objeto D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\UE4Editor-IsolationUE4-0001.exp
+    [3/4] UE4Editor-IsolationUE4-0001.dll
+       Creando biblioteca D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\UE4Editor-IsolationUE4-0001.suppressed.lib y objeto D:\UE4\CONTAGIOSOS\Isolation\IsolationUE4\Intermediate\Build\Win64\UE4Editor\Development\IsolationUE4\UE4Editor-IsolationUE4-0001.suppressed.exp
     [4/4] IsolationUE4Editor.target
-  Total time in Parallel executor: 1,55 seconds
-  Total execution time: 7,10 seconds
+  Total time in Parallel executor: 4,49 seconds
+  Total execution time: 10,06 seconds

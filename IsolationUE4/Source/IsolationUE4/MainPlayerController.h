@@ -23,7 +23,6 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Spawning")
 	TArray<TSubclassOf<class ANivel>> IMPORTANTLevelsToSpawn;
 
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
 	TSubclassOf<class UUserWidget> HUDOverlayAsset;
 
@@ -55,10 +54,16 @@ public:
 	UUserWidget* Ahogamiento;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
-		TSubclassOf<UUserWidget> Wmensaje;
+	TSubclassOf<UUserWidget> Wmensaje;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Widgets")
-		UUserWidget* Mensaje;
+	UUserWidget* Mensaje;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
+	TSubclassOf<UUserWidget> WInicioFinal;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Widgets")
+	UUserWidget* InicioFinal;
 
 	UFUNCTION(BlueprintCallable, Category = "HUD")
 	void DisplayInteractWidget();
