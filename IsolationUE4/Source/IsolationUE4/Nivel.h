@@ -40,4 +40,7 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 	int Y;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Gas")
+	bool bPuedeVerElGas;
+
 };
