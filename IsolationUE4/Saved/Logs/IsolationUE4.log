@@ -561,3 +561,256 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 	PlayerAnimInstance_C /Engine/Transient.World_0:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
 	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
 [2020.03.20-16.14.23:984][ 32]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.20-16.15.17:628][379]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.15.17:747][390]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/GameplayMechanics/Puzzle_Bombillas_BP.Puzzle_Bombillas_BP
+[2020.03.20-16.15.17:960][390]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.03.20-16.15.18:842][390]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/Blueprints/PruebaGeneradorDeSalas.PruebaGeneradorDeSalas
+[2020.03.20-16.15.19:152][390]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/Blueprints/MainPlayerController_BP.MainPlayerController_BP
+[2020.03.20-16.15.19:475][390]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.20-16.15.19:579][391]LogSlate: Took 0.000333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.20-16.15.28:987][697]LogTemp: Repeating last play command: Standalone Game
+[2020.03.20-16.15.29:043][697]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.03.20-16.16.31:998][878]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/Blueprints/TopDownCharacter.TopDownCharacter
+[2020.03.20-16.16.32:299][878]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.32:300][878]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.32:387][879]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.32:409][880]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.32:417][881]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.32:426][882]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.32:434][883]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.32:442][884]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.32:451][885]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.32:459][886]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.32:467][887]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.32:476][888]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.32:484][889]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.32:493][890]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.32:501][891]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.32:509][892]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_0
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.52:552][286]BlueprintLog: New page: Compile TopDownCharacter
+[2020.03.20-16.16.53:369][286]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_0:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.53:370][286]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.53:619][286]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2020.03.20-16.16.53:674][286]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_0:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.53:675][286]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.53:732][286]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.53:761][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Blueprints/TopDownCharacter" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Blueprints/TopDownCharacter.uasset" SILENT=true
+[2020.03.20-16.16.53:814][286]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/TopDownCharacter9D2EF26746ADEA55D4B2C7BE9565A1FB.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Blueprints/TopDownCharacter.uasset'
+[2020.03.20-16.16.53:829][286]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.54:100][287]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.54:117][288]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.54:124][289]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.54:133][290]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.54:142][291]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.54:153][292]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.54:163][293]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.54:172][294]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.54:182][295]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.54:193][296]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.54:201][297]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue_1
+	PlayerAnimInstance_C /Engine/Transient.World_5:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.PlayerAnimInstance_C_1
+	Function /Game/TopDownCPP/Player/Animations/PlayerAnimInstance.PlayerAnimInstance_C:ExecuteUbergraph_PlayerAnimInstance:00D9
+[2020.03.20-16.16.55:499][451]LogTemp: Repeating last play command: Standalone Game
+[2020.03.20-16.16.55:568][451]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2020.03.20-16.17.35:548][277]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/Niveles/Nivel_Trampilla.Nivel_Trampilla
+[2020.03.20-16.17.37:222][373]LogRenderer: Reallocating scene render targets to support 1152x708 Format 10 NumSamples 1 (Frame:1).
+[2020.03.20-16.17.54:345][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.17.56:949][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.17.59:706][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.01:571][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.05:748][694]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.07:700][925]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.10:147][196]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.13:032][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.17:478][ 28]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.20:879][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.23:507][745]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.25:940][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.29:768][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.34:221][959]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.36:235][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.39:236][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.44:806][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.48:547][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.51:296][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.54:250][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.57:255][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.18.59:656][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.19.02:190][201]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.19.05:209][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.19.09:587][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.19.13:564][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.19.16:434][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.19.18:739][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.19.21:046][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.19.23:469][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.19.26:477][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.19.29:610][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.19.31:707][547]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.19.34:334][840]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.20.08:304][858]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.20.10:053][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.20.14:043][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.20.17:781][938]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.20.21:141][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.20.26:209][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.20.37:024][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.20.46:170][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.20.48:040][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.20.56:374][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.20.58:343][632]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.21.02:175][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.21.05:340][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.21.12:733][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.21.14:483][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.21.16:934][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.21.20:768][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.21.23:707][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.21.26:379][848]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.21.28:934][130]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.21.33:048][597]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.21.33:130][606]BlueprintLog: New page: Compile Nivel_Trampilla
+[2020.03.20-16.21.34:156][606]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2020.03.20-16.21.34:338][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Niveles/Nivel_Trampilla" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Niveles/Nivel_Trampilla.uasset" SILENT=true
+[2020.03.20-16.21.34:450][606]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Nivel_Trampilla07F495C7401A81F0850297B096BE4B6C.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Niveles/Nivel_Trampilla.uasset'
+[2020.03.20-16.21.34:685][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Niveles/Nivel_Trampilla" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Niveles/Nivel_Trampilla.uasset" SILENT=true
+[2020.03.20-16.21.34:784][623]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Nivel_Trampilla16B9DABC44511287C174B3A9884276B4.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Niveles/Nivel_Trampilla.uasset'
+[2020.03.20-16.21.52:765][757]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.22.25:221][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.22.39:040][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.22.45:517][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.22.56:797][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.22.56:880][292]BlueprintLog: New page: Compile Nivel_Trampilla
+[2020.03.20-16.22.57:349][292]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2020.03.20-16.22.57:524][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Niveles/Nivel_Trampilla" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Niveles/Nivel_Trampilla.uasset" SILENT=true
+[2020.03.20-16.22.57:632][292]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Nivel_Trampilla1AF40BBB41120C1660106EB691D63F3A.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Niveles/Nivel_Trampilla.uasset'
+[2020.03.20-16.22.57:788][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Niveles/Nivel_Trampilla" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Niveles/Nivel_Trampilla.uasset" SILENT=true
+[2020.03.20-16.22.57:886][300]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Nivel_Trampilla645503474CD994FCB3930497FF215EFE.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Niveles/Nivel_Trampilla.uasset'
+[2020.03.20-16.23.03:057][918]LogTemp: Repeating last play command: Standalone Game
+[2020.03.20-16.23.03:122][918]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2020.03.20-16.24.23:270][276]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={03ABCB15-4F4D-B3F9-AF1C-2BB8799987A4}
+[2020.03.20-16.27.44:943][ 89]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-16.27.45:801][165]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.20-16.27.45:801][165]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-16.27.46:337][223]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.20-16.27.46:337][223]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-16.27.46:801][270]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.20-16.27.46:801][270]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-16.27.47:537][350]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.20-16.27.47:537][350]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-16.27.51:496][813]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/Effects/VolumetricGas/Volumetrics_BP.Volumetrics_BP
+[2020.03.20-16.28.05:774][488]BlueprintLog: New page: Compile Volumetrics_BP
+[2020.03.20-16.28.06:085][488]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2020.03.20-16.28.06:489][517]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Volumetrics_BP7182CCAE4FF98B4B4E43B2BB36C0AAA7.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Effects/VolumetricGas/Volumetrics_BP.uasset'
+[2020.03.20-16.28.06:999][576]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-16.28.20:008][130]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/Effects/VolumetricGas/Volumetrics_BP.Volumetrics_BP
+[2020.03.20-16.28.33:367][696]BlueprintLog: New page: Compile Volumetrics_BP
+[2020.03.20-16.28.33:682][696]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2020.03.20-16.28.33:926][707]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Volumetrics_BP0CD137F34E7AFD5375D484BDF9A99754.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Effects/VolumetricGas/Volumetrics_BP.uasset'
+[2020.03.20-16.28.34:567][782]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-16.29.07:786][725]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/Niveles/Nivel_Laser04.Nivel_Laser04
+[2020.03.20-16.29.11:499][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.29.12:358][177]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/Niveles/Nivel_Laser03.Nivel_Laser03
+[2020.03.20-16.29.14:524][360]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-16.33.19:216][599]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.33.19:713][646]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.33.25:544][307]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.33.26:238][372]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.33.34:299][278]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.33.34:838][332]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.33.37:001][533]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.33.37:562][591]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.33.50:648][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.33.51:246][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.33.53:891][341]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.33.54:593][414]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.34.20:527][376]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.34.21:595][474]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.34.43:465][640]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.34.52:797][664]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.34.53:913][786]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.35.08:862][430]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.35.10:759][633]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.20-16.35.30:768][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.20-16.35.30:851][872]BlueprintLog: New page: Compile Nivel_Laser04
+[2020.03.20-16.35.32:831][872]LogUObjectHash: Compacting FUObjectHashTables data took   7.58ms
+[2020.03.20-16.35.32:915][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Niveles/Nivel_Laser04" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Niveles/Nivel_Laser04.uasset" SILENT=true
+[2020.03.20-16.35.33:013][872]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/Nivel_Laser04EF1969F949F033318678F295B73C4AB9.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Niveles/Nivel_Laser04.uasset'
+[2020.03.20-16.36.28:463][506]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/Blueprints/MainPlayerController_BP.MainPlayerController_BP
+[2020.03.20-16.36.38:512][655]BlueprintLog: New page: Compile MainPlayerController_BP
+[2020.03.20-16.36.39:651][655]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
+[2020.03.20-16.36.39:811][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownCPP/Blueprints/MainPlayerController_BP" FILE="D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Blueprints/MainPlayerController_BP.uasset" SILENT=true
+[2020.03.20-16.36.39:857][655]LogSavePackage: Moving 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Saved/MainPlayerController_BP2830F52E41846F615EA8A2AB666FB20D.tmp' to 'D:/UE4/CONTAGIOSOS/Isolation/IsolationUE4/Content/TopDownCPP/Blueprints/MainPlayerController_BP.uasset'
+[2020.03.20-16.36.44:765][231]LogTemp: Repeating last play command: Standalone Game
+[2020.03.20-16.36.44:836][231]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2020.03.20-16.37.44:622][696]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownCPP/GameplayMechanics/Puzzle_Bombillas_BP.Puzzle_Bombillas_BP
+[2020.03.20-16.38.24:157][247]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-16.38.25:827][439]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.20-16.38.25:827][439]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-16.38.28:248][716]LogTemp: Repeating last play command: Standalone Game
+[2020.03.20-16.38.28:297][716]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.03.20-16.39.14:861][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
